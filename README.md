@@ -1,2 +1,2 @@
-# residelia-help
-Help docs for RESIDELIA
+# vuepress-netlify-cms
+Example integration of VuePress with Netlify
