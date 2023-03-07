@@ -44,6 +44,11 @@ module.exports = {
       {
         text: 'VuePress',
         link: 'https://v1.vuepress.vuejs.org'
+      },
+      ,
+      {
+        text: 'admin',
+        link: 'https://github.com/andreliem/vuepress-netlify-cms'
       }
     ],
     sidebar: {
