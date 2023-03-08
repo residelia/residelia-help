@@ -47,7 +47,7 @@ module.exports = {
       },
       {
         text: 'admin',
-        link: '/admin/index.html'
+        link: '/admin/#'
       }
     ],
     sidebar: {
