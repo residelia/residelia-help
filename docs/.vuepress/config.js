@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Sección Ayuda Residelia',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,34 +34,41 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Activos',
+        link: '/guide/Activos',
+      },
+      {
+        text: 'Carteras',
+        link: '/guide/Carteras',
+      },
+      {
+        text: 'Datos',
+        link: '/guide/Datos',
       },
       {
         text: 'Config',
         link: '/config/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      },
-      {
         text: 'admin',
         link: '/admin/#'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar:[
+      {
+        title: 'Menú Ayuda',
+        path: '/',
+        collapsable: false,
+      },
+      {
+        title: 'Secciones',
+        path: '/guide/',
+        collapsable: false,
+        children: [
+          '/guide/'
+        ]
+      }
+    ],
   },
 
   /**

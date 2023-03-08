@@ -1,15 +1,15 @@
----
-home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
-actionText: Quick Start →
-actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by  with ❤️
----
+# Ayuda
+
+<aside>
+ℹ️ En esta sección trataremos de poner toda la información necesaria para ayudarte.
+
+Si tienes cualquier pregunta, comentario, propuesta o mejora adicional, no dudes en escribirnos a través del **[Panel de Soporte](https://leandigital.atlassian.net/servicedesk/customer/portal/3)**
+
+</aside>
+
+## [Carteras](guide/Carteras.md)
+
+## [Activos](guide/Activos.md)
+
+## [Datos](guide/Datos.md)
+
