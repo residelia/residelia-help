@@ -1,3 +1,6 @@
+---
+title: Activos
+---
 # Activos
 
 [Listado](https://www.notion.so/Listado-0f77e3ac6f914d598d163e2fa18f0f8a)
