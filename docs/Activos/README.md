@@ -1,6 +1,6 @@
 # Activos
 
-## [Listado](https://www.notion.so/Listado-0f77e3ac6f914d598d163e2fa18f0f8a)
+## [Listado](/Activos/Listado)
 
 ## [Grupos](https://www.notion.so/Grupos-8958e30b77994343ab739475fe596aec)
 
