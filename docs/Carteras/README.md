@@ -1,6 +1,3 @@
----
-title: Carteras
----
 # Carteras
 
 ## ➕ Nueva Cartera
@@ -31,7 +28,7 @@ Este paso no es obligatorio, por lo que puedes crear una cartera vacía y añadi
 - Como último paso, hay varias opciones de configuración de la cartera:
     - Fuente del dato de superficie
     
-    [**¿Cómo funciona Sup. Auto?**](https://www.notion.so/C-mo-funciona-Sup-Auto-95dcdc0c4ef6446290fb5f74b0290660)
+    [**¿Cómo funciona Sup. Auto?**](/Carteras/supAuto)
     
     - Valoración automática AVM
         - Venta y/o Alquiler

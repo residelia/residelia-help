@@ -32,6 +32,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    logo: 'images/poster.png',
     nav: [
       {
         text: 'Activos',
@@ -54,18 +55,15 @@ module.exports = {
         link: '/admin/#'
       }
     ],
-    sidebar:[
+    sidebar: [
       {
-        title: 'Menú Ayuda',
+        title: 'Menú de Ayuda',
         path: '/',
         collapsable: false,
-      },
-      {
-        title: 'Secciones',
-        path: '/guide/',
-        collapsable: false,
-        children: [
-          '/guide/'
+        children:[
+          '/Activos/',
+          '/Carteras/',
+          '/Datos/'
         ]
       }
     ],

@@ -7,9 +7,8 @@ Si tienes cualquier pregunta, comentario, propuesta o mejora adicional, no dudes
 
 </aside>
 
-## [Carteras](guide/Carteras.md)
+## [Carteras](Carteras)
 
-## [Activos](guide/Activos.md)
+## [Activos](Activos)
 
-## [Datos](guide/Datos.md)
-
+## [Datos](Datos)

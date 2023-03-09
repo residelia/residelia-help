@@ -1,7 +1,1 @@
----
-sidebar: auto
----
-
-# guide
-
-
+# Guide UI

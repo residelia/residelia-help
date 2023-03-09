@@ -1,4 +1,0 @@
----
-title: Datos
----
-# Datos
