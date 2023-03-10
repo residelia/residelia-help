@@ -33,28 +33,12 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     logo: 'images/poster.png',
-    nav: [
-      {
-        text: 'Activos',
-        link: '/guide/Activos',
-      },
-      {
-        text: 'Carteras',
-        link: '/guide/Carteras',
-      },
-      {
-        text: 'Datos',
-        link: '/guide/Datos',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'admin',
-        link: '/admin/#'
-      }
-    ],
+    // nav: [
+    //   {
+    //     text: 'admin',
+    //     link: '/admin/#'
+    //   }
+    // ],
     sidebar: [
       {
         title: 'Menú de Ayuda',
