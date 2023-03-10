@@ -15,6 +15,6 @@ En el listado de activos de una cartera, es posible realizar las siguientes acci
     - Individual → Creación de un activo nuevo a la cartera a través del formulario
     - Masivo → Creación de activos de forma masiva a través del DT *(Más Info en 🏪 Carteras)*
 
-![Untitled](/images/Activos/Untitled.png)
+![Untitled](/images/Assets/Untitled.png)
 
-![Untitled](/images/Activos/Untitled%201.png)
+![Untitled](/images/Assets/Untitled%201.png)

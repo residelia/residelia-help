@@ -7,8 +7,8 @@ Si tienes cualquier pregunta, comentario, propuesta o mejora adicional, no dudes
 
 </aside>
 
-## [Carteras](Carteras)
+## [Carteras](Portfolios/)
 
-## [Activos](Activos)
+## [Activos](Assets/)
 
-## [Datos](Datos)
+## [Datos](Data/)

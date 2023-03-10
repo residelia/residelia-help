@@ -32,7 +32,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    logo: 'images/poster.png',
+    logo: 'https://s3.eu-west-1.amazonaws.com/residelia.resources/logos/residelia_128x128.jpg',
     // nav: [
     //   {
     //     text: 'admin',
@@ -45,9 +45,10 @@ module.exports = {
         path: '/',
         collapsable: false,
         children:[
-          '/Activos/',
-          '/Carteras/',
-          '/Datos/'
+          '/Portfolios/',
+          '/Assets/',
+          '/Assets/Management/',
+          '/Data/'
         ]
       }
     ],
