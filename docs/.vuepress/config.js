@@ -48,9 +48,10 @@ module.exports = {
           '/Portfolios/',
           '/Assets/',
           '/Assets/Management/',
-          '/Data/'
+          '/Data/',
+          '/Faqs/'
         ]
-      }
+      },
     ],
   },
 

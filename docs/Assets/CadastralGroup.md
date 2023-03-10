@@ -18,7 +18,7 @@ La edición individual de un activo que pertenece a una de estas agrupaciones es
 
 Para poder valorar los activos de la agrupación, es necesario que éstos estén correctamente distribuidos en subagrupaciones.
 
-[¿Por qué son necesarias las subagrupaciones?](/Assets/NeedToGroup)
+[¿Por qué son necesarias las subagrupaciones?](/Faqs/#%C2%BFpor-que-son-necesarias-las-subagrupaciones)
 
 En la sección de Valoración, aparecen las subagrupaciones creadas donde podremos editar los comparables y el valor unitario de cada una de ellas.
 

@@ -53,7 +53,33 @@ Y seleccionando un grupo en particular, podemos ver los activos pertenecientes a
 
 Si todos los activos del grupo pertenecen a la misma Finca Catastral, la vista del grupo cambiará para ser lo más similar posible a un activo unitario y poder valorar de forma masiva:
 
-[Agrupación Finca Catastral](/Assets/CadastralGroup)
+## [Agrupación Finca Catastral](/Assets/CadastralGroup)
+
+Cuando todos los activos de una agrupación pertenecen a la misma Finca Catastral, ésta se visualizará como si de un activo individual se tratase (con algunas diferencias) con el objetivo de que pueda valorarse de forma conjunta de una forma rápida y ágil.
+
+Cualquier cambio realizado a la agrupación, se extrapolará de forma automática a cada uno de los activos individuales que pertenecen al grupo.
+
+La edición individual de un activo que pertenece a una de estas agrupaciones es posible y puede realizarse la edición de cualquiera de las dos formas. Si la plataforma, al editar una agrupación, detecta que un activo ha sido editado individualmente, avisará al usuario para que tenga en cuenta que el cambio puede sobreescribir información existente.
+
+### **Info**
+
+![Untitled](/images/CadastralGroup/Untitled.png)
+
+### **Activos**
+
+![Untitled](/images/CadastralGroup/Untitled%201.png)
+
+### **Valoración**
+
+Para poder valorar los activos de la agrupación, es necesario que éstos estén correctamente distribuidos en subagrupaciones.
+
+[¿Por qué son necesarias las subagrupaciones?](/Faqs/#%C2%BFpor-que-son-necesarias-las-subagrupaciones)
+
+En la sección de Valoración, aparecen las subagrupaciones creadas donde podremos editar los comparables y el valor unitario de cada una de ellas.
+
+Esta edición se extrapolará automáticamente a todos los activos pertenecientes a la subagrupación modificada y el valor unitario se multiplicará por la superficie de cada activo.
+
+![Captura de Pantalla 2022-09-14 a las 16.18.08.png](/images/CadastralGroup/Captura_de_Pantalla_2022-09-14_a_las_16.18.08.png)
 ## Vista del Activo
 
 ### Secciones
@@ -110,7 +136,7 @@ En primer lugar, después de obtener la información más completa posible del a
 
 Esta valoración AVM es una primera estimación del valor del activo. Es el primer paso entre distintos tipos de valoración, pudiendo afinar mucho más la valoración trabajando el activo de forma manual.
 
-[¿Cómo funciona el Algoritmo de Valoración AVM?](https://www.notion.so/C-mo-funciona-el-Algoritmo-de-Valoraci-n-AVM-0c7f427acac545b2b9cc8a767c517105)
+[¿Cómo funciona el Algoritmo de Valoración AVM?](/Faqs/#%C2%BFcomo-funciona-el-algoritmo-de-valoracion-avm)
 
 ### Valoración Manual
 
@@ -120,7 +146,7 @@ Para realizar una valoración, desde la vista del activo, podemos entrar en modo
 
 ![Captura de Pantalla 2022-09-12 a las 12.50.36.png](/images/Valuation/Captura_de_Pantalla_2022-09-12_a_las_12.50.36.png)
 
-[¿Cómo se realiza una valoración manual?](https://www.notion.so/C-mo-se-realiza-una-valoraci-n-manual-4bf15879e1404b70902cf2bc42bf8fc2)
+[¿Cómo se realiza una valoración manual?](/Faqs/ManualValuation/)
 
 ### Histórico de Valores
 

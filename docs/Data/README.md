@@ -13,9 +13,9 @@ Para aportar la máxima transparencia, en el detalle de cualquier anuncio, se ap
 
 Así mismo, con el objetivo de que la información de mercado esté lo menos distorsionada posible, se realiza un procesamiento de estos datos para tratar de eliminar anuncios erróneos e identificar anuncios duplicados entre los distintos portales.
 
-[**¿Cómo es el proceso de identificación de anuncios duplicados?**](/Data/duplicatesAds)
+[**¿Cómo es el proceso de identificación de anuncios duplicados?**](/Faqs/#%C2%BFcomo-es-el-proceso-de-identificacion-de-anuncios-duplicados)
 
-[**¿Por qué veo características erróneas en los inmuebles?**](/Data/wrongCharacteristics)
+[**¿Por qué veo características erróneas en los inmuebles?**](/Faqs/#%C2%BFpor-que-veo-caracteristicas-erroneas-en-los-inmuebles)
 
 ## Fuentes Oficiales
 
