@@ -1,6 +1,6 @@
 # Datos
 
-### Portales Inmobiliarios (Oferta)
+## Portales Inmobiliarios (Oferta)
 
 <aside>
 ℹ️ La plataforma extrae la información de **Oferta** de los principales portales inmobiliarios *(Idealista, Fotocasa y pisos.com)* con una **actualización diaria** de las siguientes tipologías: Viviendas, Garajes, Trasteros, Comercial, Industrial y Oficinas.
@@ -17,7 +17,7 @@ Así mismo, con el objetivo de que la información de mercado esté lo menos dis
 
 [**¿Por qué veo características erróneas en los inmuebles?**](/Data/wrongCharacteristics)
 
-### Fuentes Oficiales
+## Fuentes Oficiales
 
 <aside>
 ℹ️ La plataforma extrae la información de multitud de fuentes oficiales con el objetivo de aglutinarlas en una única herramienta y que no sea necesario consultarlas externamente.
@@ -47,7 +47,7 @@ Cada fuente puede publicar los datos con un desfase temporal respecto la actuali
     - Paro registrado por municipio con parámetros de sexo, edad y sector económico. 
     Datos mensuales con histórico desde el año 2006
 
-### Otras Fuentes
+## Otras Fuentes
 
 **Google Street View**
 

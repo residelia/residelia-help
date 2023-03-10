@@ -53,7 +53,7 @@ Y seleccionando un grupo en particular, podemos ver los activos pertenecientes a
 
 Si todos los activos del grupo pertenecen a la misma Finca Catastral, la vista del grupo cambiará para ser lo más similar posible a un activo unitario y poder valorar de forma masiva:
 
-[Agrupación Finca Catastral](https://www.notion.so/Agrupaci-n-Finca-Catastral-1d204428cc41475ba7c76447f642976b)
+[Agrupación Finca Catastral](/Assets/CadastralGroup)
 ## Vista del Activo
 
 ### Secciones
