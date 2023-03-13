@@ -44,13 +44,13 @@ Una vez recibida toda la información de los activos de la cartera, la plataform
 
 A partir de la información disponible de cada activo, la aplicación empleará diferentes automatismos para tratar de determinar, con la mayor precisión posible, las características del inmueble.
 
-[¿Cómo se determina la localización?](https://www.notion.so/C-mo-se-determina-la-localizaci-n-8af8550751da45198c73c31285f89914)
+[¿Cómo se determina la localización?](/Faqs/#%C2%BFcomo-se-determina-la-localizacion)
 
-[**¿Cómo se determina la superficie?**](https://www.notion.so/C-mo-se-determina-la-superficie-b99ac654c0974fb8a471be812f36ec4c)
+[**¿Cómo se determina la superficie?**](/Faqs/#%C2%BFcomo-se-determina-la-superficie)
 
-[¿Qué características se enriquecen de forma automática?](https://www.notion.so/Qu-caracter-sticas-se-enriquecen-de-forma-autom-tica-64bdf090a3a44a538e749978ebdb2fc7)
+[¿Qué características se enriquecen de forma automática?](/Faqs/#%C2%BFque-caracteristicas-se-enriquecen-de-forma-automatica)
 
-[**¿Se priorizan los datos de Catastro frente a los que introduzco manualmente?**](https://www.notion.so/Se-priorizan-los-datos-de-Catastro-frente-a-los-que-introduzco-manualmente-5e173dc4db2545ea96f25c7495214e1d)
+[**¿Se priorizan los datos de Catastro frente a los que introduzco manualmente?**](/Faqs/#%C2%BFse-priorizan-los-datos-de-catastro-frente-a-los-que-introduzco-manualmente)
 
 ## 💲 Valoración
 
@@ -58,4 +58,4 @@ Después de obtener la información más completa posible de cada activo, la pla
 
 Esta valoración AVM es una primera estimación del valor del activo. En la vista del activo, es el primer paso entre distintos estados de valoración, pudiendo afinar mucho más la valoración trabajando el activo de forma manual. *(Más info en* 🏠 *Activos / Valoración Manual)*
 
-[¿Cómo funciona el Algoritmo de Valoración AVM?](https://www.notion.so/C-mo-funciona-el-Algoritmo-de-Valoraci-n-AVM-14ade25d615442aaaf7c8e0f6d2a4307)
+[¿Cómo funciona el Algoritmo de Valoración AVM?](/Faqs/#%C2%BFcomo-funciona-el-algoritmo-de-valoracion-avm)

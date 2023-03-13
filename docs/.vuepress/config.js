@@ -37,7 +37,15 @@ module.exports = {
     //   {
     //     text: 'admin',
     //     link: '/admin/#'
-    //   }
+    //   },
+      // {
+      //   text: 'Languages',  De esta manera podríamos hacer un un combo de opciones dentro del navbar
+      //   ariaLabel: 'Language Menu',
+      //   items: [
+      //     { text: 'Chinese', link: '/language/chinese/' },
+      //     { text: 'Japanese', link: '/language/japanese/' }
+      //   ]
+      // }
     // ],
     sidebar: [
       {
@@ -52,6 +60,7 @@ module.exports = {
           '/Faqs/'
         ]
       },
+      
     ],
   },
 
