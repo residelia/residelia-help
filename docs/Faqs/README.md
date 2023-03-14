@@ -1,5 +1,5 @@
 ---
-title: Faqs Home
+title: Faqs
 ---
 # FAQS
 
