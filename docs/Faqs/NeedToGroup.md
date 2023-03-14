@@ -1,3 +1,6 @@
+---
+title: Need To Group
+---
 # ¿Por qué son necesarias las subagrupaciones?
 
 Para poder valorar de forma masiva todos los activos de la agrupación, es necesario establecer correctamente unas subagrupaciones de cara a estructurar los activos por tipología u otro parámetro y que las valoraciones masivas se extrapolen al conjunto de activos deseado.
