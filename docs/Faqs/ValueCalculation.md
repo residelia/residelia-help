@@ -1,3 +1,6 @@
+---
+title: Value Calculation
+---
 # ¿Cómo es el cálculo del valor?
 
 <aside>
