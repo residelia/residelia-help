@@ -1,5 +1,5 @@
 ---
-title: Managemeny
+title: Management
 ---
 # Saneamiento
 
