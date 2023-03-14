@@ -11,7 +11,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Assets" # Used in routes, e.g., /admin/collections/blog
+  - name: "Assets Section" # Used in routes, e.g., /admin/collections/blog
     label: "Assets Section" # Used in the UI
     folder: "docs/Assets" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -19,7 +19,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-    - name: "Management" # Used in routes, e.g., /admin/collections/blog
+    - name: "Management Section" # Used in routes, e.g., /admin/collections/blog
     label: "Management Section" # Used in the UI
     folder: "docs/Assets/Management" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -27,7 +27,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Portfolios" # Used in routes, e.g., /admin/collections/blog
+  - name: "Portfolios Section" # Used in routes, e.g., /admin/collections/blog
     label: "Portfolios Section" # Used in the UI
     folder: "docs/Portfolios" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -35,7 +35,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Data" # Used in routes, e.g., /admin/collections/blog
+  - name: "Data Section" # Used in routes, e.g., /admin/collections/blog
     label: "Data Section" # Used in the UI
     folder: "docs/Data" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -43,7 +43,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Faqs" # Used in routes, e.g., /admin/collections/blog
+  - name: "Faqs Section" # Used in routes, e.g., /admin/collections/blog
     label: "Faqs Section" # Used in the UI
     folder: "docs/Faqs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
