@@ -1,5 +1,5 @@
 ---
-title: Data Home
+title: Data
 ---
 # Datos
 
