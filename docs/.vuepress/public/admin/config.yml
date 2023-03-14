@@ -4,7 +4,7 @@ backend:
 media_folder: "/images/uploads" # Media files will be stored in the repo under images/uploads
 collections:
   - name: "Home" # Used in routes, e.g., /admin/collections/blog
-    label: "Residelia Help" # Used in the UI
+    label: "Residelia Help Home" # Used in the UI
     folder: "docs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -12,8 +12,40 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Assets" # Used in routes, e.g., /admin/collections/blog
-    label: "Residelia Help" # Used in the UI
+    label: "Assets Section" # Used in the UI
     folder: "docs/Assets" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+    - name: "Management" # Used in routes, e.g., /admin/collections/blog
+    label: "Management Section" # Used in the UI
+    folder: "docs/Assets/Management" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Portfolios" # Used in routes, e.g., /admin/collections/blog
+    label: "Portfolios Section" # Used in the UI
+    folder: "docs/Portfolios" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Data" # Used in routes, e.g., /admin/collections/blog
+    label: "Data Section" # Used in the UI
+    folder: "docs/Data" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Faqs" # Used in routes, e.g., /admin/collections/blog
+    label: "Faqs Section" # Used in the UI
+    folder: "docs/Faqs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
