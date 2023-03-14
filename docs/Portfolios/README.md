@@ -1,5 +1,5 @@
 ---
-title: Portfolios Home
+title: Portfolios
 ---
 # Carteras
 
