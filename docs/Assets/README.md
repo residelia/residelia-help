@@ -1,5 +1,5 @@
 ---
-title: Home Assets
+title: Assets
 ---
 # Activos
 
