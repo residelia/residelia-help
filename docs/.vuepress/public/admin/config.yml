@@ -12,7 +12,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Assets" # Used in routes, e.g., /admin/collections/blog
-    label: "Residelia Help" # Used in the UI
+    label: "Assets Section" # Used in the UI
     folder: "docs/Assets" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
