@@ -1,3 +1,6 @@
+---
+title: Faqs Home
+---
 # FAQS
 
 ## ¿Cómo se realiza una valoración manual?
@@ -18,8 +21,8 @@ En este listado de comparables, se pueden eliminar, seleccionar/deseleccionar, e
 
 Así mismo, existen dos columnas adicionales en cada comparable:
 
-- Porcentaje de Negociación → Descuento del valor unitario del comparable.
-- Coeficiente de Homogeneización → Coeficiente para aplicar distintas ponderaciones a los comparables. Se aplica en el valor unitario del comparable.
+* Porcentaje de Negociación → Descuento del valor unitario del comparable.
+* Coeficiente de Homogeneización → Coeficiente para aplicar distintas ponderaciones a los comparables. Se aplica en el valor unitario del comparable.
 
 El valor unitario de la valoración corresponde a la media de los valores unitarios de los testigos seleccionados. Es posible editar tanto el valor como el valor unitario manualmente y durante la valoración, no se realizará ningún cálculo adicional para re-calcular el valor.
 
@@ -29,7 +32,7 @@ El tipo de valoración es editable según la consideración del usuario:
 
 ![Captura de pantalla 2023-01-13 a las 16.39.24.png](/images/ManualValuation/Captura_de_pantalla_2023-01-13_a_las_16.39.24.png)
 
-[**¿Qué es una valoración firmada?**](/Faqs/#%C2%BFque-es-una-valoracion-firmada)
+**[¿Qué es una valoración firmada?](/Faqs/#%C2%BFque-es-una-valoracion-firmada)**
 
 **CAPEX**
 
@@ -114,20 +117,15 @@ De cara a ofrecer la mejor valoración del inmueble, el parámetro más determin
 
 Cuando tenemos más de una superficie, normalmente la introducida por el usuario (o datatape) y las proporcionadas por Catastro, tenemos que decidir cuál de ellas tiene preferencia. 
 
-- En el caso de que el inmueble sea una **vivienda unifamiliar**, la superficie catastral que tenemos en cuenta es la **superficie construida total**.
-- En el caso de **viviendas plurifamiliares**, dependiendo de la superficie de **elementos comunes asociada (límite 13%)**, tenemos en cuenta la **superficie de la vivienda más la superficie de comunes de forma completa o parcial**.
+* En el caso de que el inmueble sea una **vivienda unifamiliar**, la superficie catastral que tenemos en cuenta es la **superficie construida total**.
+* En el caso de **viviendas plurifamiliares**, dependiendo de la superficie de **elementos comunes asociada (límite 13%)**, tenemos en cuenta la **superficie de la vivienda más la superficie de comunes de forma completa o parcial**.
 
 La superficie catastral elegida dependiendo de la tipología, se compara con la introducida por el usuario (o datatape):
 
-- Diferencia mayor del 15% → Se escoge la Catastral para evitar que el dato introducido pudiera ser erróneo.
-    
-    <aside>
+* Diferencia mayor del 15% → Se escoge la Catastral para evitar que el dato introducido pudiera ser erróneo.
 
     ℹ️ En estos casos, en el listado de activos, se marca un *Warning* ⚠️ para tenerlo en cuenta y que en la valoración del activo manual pueda elegirse la superficie deseada.
-    
-    </aside>
-    
-- Diferencia menor del 15% → Se escoge la introducida por el usuario (o datatape), ya que habitualmente esta superficie puede venir de Registro o de una medición manual más precisa.
+* Diferencia menor del 15% → Se escoge la introducida por el usuario (o datatape), ya que habitualmente esta superficie puede venir de Registro o de una medición manual más precisa.
 
 ## ¿Qué características se enriquecen de forma automática?
 
@@ -139,18 +137,20 @@ Toda esta información automática se puede editar manualmente a posteriori para
 
 Con la superficie exclusivamente de la Vivienda, realizamos una estimación del número de habitaciones.
 
-- Para edificaciones anteriores al año 2000:
-    - Hasta 30 m² → Estudio
-    - De 30 a 50 m² → 1 habitación
-    - De 50 a 80 m² → 2 habitaciones
-    - De 80 a 100 m² → 3 habitaciones
-    - A partir 100 m² → 4 habitaciones
-- Para edificaciones posteriores al año 2000:
-    - Hasta 40 m² → Estudio
-    - De 40 a 65 m² → 1 habitación
-    - De 65 a 95 m² → 2 habitaciones
-    - De 95 a 130 m² → 3 habitaciones
-    - A partir de 130 m² → 4 habitaciones
+* Para edificaciones anteriores al año 2000:
+
+  * Hasta 30 m² → Estudio
+  * De 30 a 50 m² → 1 habitación
+  * De 50 a 80 m² → 2 habitaciones
+  * De 80 a 100 m² → 3 habitaciones
+  * A partir 100 m² → 4 habitaciones
+* Para edificaciones posteriores al año 2000:
+
+  * Hasta 40 m² → Estudio
+  * De 40 a 65 m² → 1 habitación
+  * De 65 a 95 m² → 2 habitaciones
+  * De 95 a 130 m² → 3 habitaciones
+  * A partir de 130 m² → 4 habitaciones
 
 **Ascensor**
 
@@ -196,14 +196,15 @@ Estas subagrupaciones pueden crearse automáticamente al subir la cartera a la p
 
 Y por defecto se formarían:
 
-- En las Viviendas, se diferenciaría por número de habitaciones: “2 habs., 3 habs., etc…”
-- En las demás tipologías, se diferenciaría por tipología: “Garajes, Trasteros, Comercios, etc…”
+* En las Viviendas, se diferenciaría por número de habitaciones: “2 habs., 3 habs., etc…”
+* En las demás tipologías, se diferenciaría por tipología: “Garajes, Trasteros, Comercios, etc…”
 
 **De forma manual**
 
 En la tabla de Activos de la agrupación, en modo edición, están disponibles opciones para crear subagrupación, añadir a una subagrupación existente y eliminar subagrupación.
 
 ![Untitled](/images/NeedToGroup/Untitled%201.png)
+
 ## ¿Qué es una valoración firmada?
 
 <aside>
@@ -230,8 +231,8 @@ Estos parámetros, ordenados por peso de ponderación, serían los siguientes:
 
 Para la ponderación de la similaridad en concepto de la ubicación del inmueble, se tienen en cuenta estos dos parámetros: 
 
-- **Renta Media Hogar**: Tenemos en cuenta las distintas secciones censales con la renta media del hogar para comparar zonas similares en concepto de renta. Ésto es debido a que en algunas ubicaciones, hay zonas muy próximas en distancia pero muy dispares en renta media del hogar.
-- **Radio**: La búsqueda de comparables se realiza en un radio máximo de un kilómetro del inmueble a valorar.
+* **Renta Media Hogar**: Tenemos en cuenta las distintas secciones censales con la renta media del hogar para comparar zonas similares en concepto de renta. Ésto es debido a que en algunas ubicaciones, hay zonas muy próximas en distancia pero muy dispares en renta media del hogar.
+* **Radio**: La búsqueda de comparables se realiza en un radio máximo de un kilómetro del inmueble a valorar.
 
 ### Características
 
@@ -239,10 +240,10 @@ La búsqueda de comparables se realiza en el mismo **Estado** y **Tipología** d
 
 Para la ponderación de la similaridad en concepto de las características del inmueble, se tienen en cuenta, ordenados por peso de ponderación, los siguientes parámetros:
 
-- **Superficie**: Con un límite de diferencia del 50% respecto al inmueble a valorar
-- **Habitaciones**: Con un límite de diferencia de +- 2 respecto al inmueble a valorar
-- **Baños**: Con un límite de diferencia de +- 2 respecto al inmueble a valorar
-- **Otras**: Otras características como ascensor, garaje, trastero, piscina, terraza y jardín se tienen en cuenta para ponderar el comparable en el caso que dispongan de esta característica.
+* **Superficie**: Con un límite de diferencia del 50% respecto al inmueble a valorar
+* **Habitaciones**: Con un límite de diferencia de +- 2 respecto al inmueble a valorar
+* **Baños**: Con un límite de diferencia de +- 2 respecto al inmueble a valorar
+* **Otras**: Otras características como ascensor, garaje, trastero, piscina, terraza y jardín se tienen en cuenta para ponderar el comparable en el caso que dispongan de esta característica.
 
 ### Histórico
 
@@ -258,8 +259,8 @@ Para realizar el cálculo del valor unitario del activo, únicamente tenemos en 
 
 Dependiendo de la tipología del inmueble a valorar, se hace el cálculo más conveniente:
 
-- En la tipología Casas (viviendas unifamiliares), es la media del valor total de los testigos.
-- En el resto de las tipologías, es la media del valor unitario de los testigos multiplicado por la superficie del inmueble a valorar.
+* En la tipología Casas (viviendas unifamiliares), es la media del valor total de los testigos.
+* En el resto de las tipologías, es la media del valor unitario de los testigos multiplicado por la superficie del inmueble a valorar.
 
 ## ¿Cómo es el proceso de identificación de anuncios duplicados?
 
@@ -283,5 +284,5 @@ De todas formas, de forma manual, el usuario puede activar o desactivar los filt
 
 ### Pre-filtros
 
-- **Oferta**: Anuncios activos, ±~25% superficie y coincidente en habitaciones.
-- **Cierres**: Misma tipología y los tres últimos años.
+* **Oferta**: Anuncios activos, ±~25% superficie y coincidente en habitaciones.
+* **Cierres**: Misma tipología y los tres últimos años.

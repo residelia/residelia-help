@@ -1,3 +1,6 @@
+---
+title: List
+---
 # Listado
 
 <aside>

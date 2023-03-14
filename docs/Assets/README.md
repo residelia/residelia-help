@@ -1,3 +1,6 @@
+---
+title: Home Assets
+---
 # Activos
 
 ## [Listado](/Assets/Listado)

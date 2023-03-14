@@ -1,3 +1,6 @@
+---
+title: Similarity Percentage
+---
 # ¿Cómo se determina el porcentaje de similaridad?
 
 Para determinar el porcentaje de similaridad de cada uno de los comparables, ponderamos distintos parámetros para obtener un valor numérico con el que podamos únicamente ordenar el total de resultados.

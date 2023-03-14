@@ -1,3 +1,6 @@
+---
+title: Cadastral Group
+---
 # Agrupación Finca Catastral
 
 Cuando todos los activos de una agrupación pertenecen a la misma Finca Catastral, ésta se visualizará como si de un activo individual se tratase (con algunas diferencias) con el objetivo de que pueda valorarse de forma conjunta de una forma rápida y ágil.

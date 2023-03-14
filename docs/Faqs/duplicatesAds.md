@@ -1,3 +1,6 @@
+---
+title: Dupliacate Adds
+---
 # ¿Cómo es el proceso de identificación de anuncios duplicados?
 
 Con el fin de aportar la máxima transparencia a la oferta inmobiliaria, nuestro objetivo es identificar con el mayor grado de precisión los anuncios duplicados que existen entre los diferentes portales inmobiliarios, ya que representan en torno al 40-50% del total de la oferta inmobiliaria.
