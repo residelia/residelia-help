@@ -1,3 +1,6 @@
+---
+title: Intro
+---
 # Introducción
 
 El proceso de Saneamiento Jurídico posesorio implica una serie de acciones que desembocan en la toma de posesión del activo inmobiliario. En función del tipo de adquisición del activo, el proceso varía de un caso a otro pero, a grandes rasgos, este proceso se articula de la siguiente manera:
