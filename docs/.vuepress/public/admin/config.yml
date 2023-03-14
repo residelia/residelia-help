@@ -4,8 +4,8 @@ backend:
 media_folder: "/images/uploads" # Media files will be stored in the repo under images/uploads
 collections:
   - name: "doc" # Used in routes, e.g., /admin/collections/blog
-    label: "Doc" # Used in the UI
-    folder: "docs/" # The path to the folder where the documents are stored
+    label: "Residelia Help" # Used in the UI
+    folder: ["docs", "docs/Assets", "docs/Portfolios", "docs/Data", "docs/Faqs" ] # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
