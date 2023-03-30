@@ -3,6 +3,14 @@ title: FAQs
 ---
 # FAQS
 
+
+
+## T﻿EST
+
+T﻿EST para la barra lateral
+
+
+
 ## ¿Cómo se realiza una valoración manual?
 
 El entorno para realizar la valoración manual tiene una serie de apartados diseñados para aglutinar la información más útil de cara a realizar la valoración.
