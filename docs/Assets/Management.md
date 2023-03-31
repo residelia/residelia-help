@@ -48,10 +48,7 @@ Para saber si un informe se ha realizado de manera interna o se ha externalizado
 
 Mostrándose la información del servicio encargado para la realización del informe. *(Ver Peticiones de Servicio abajo)*
 
-<aside>
-ℹ️ En siguientes versiones, el interfaz que muestra la información cambiará para homogeneizarse con el resto de la aplicación.
-
-</aside>
+> ℹ️ En siguientes versiones, el interfaz que muestra la información cambiará para homogeneizarse con el resto de la aplicación.
 
 ![Captura de pantalla 2023-01-12 a las 11.56.26.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_11.56.26.png)
 
@@ -79,10 +76,7 @@ Cuando se proceda con la creación de un informe nuevo ya sea de ocupación, enc
 
 Se mostrará un menú para seleccionar si el informe se realizará internamente o externamente a través de un interviniente. Si la selección es interna, el informe se creará y será visible a través del desplegable correspondiente al tipo de informe creándose una entrada más en la lista. Si el informe se realizara externamente, se mostrará la ventana de nueva petición de servicio.
 
-<aside>
-ℹ️ El interfaz correspondiente a esta acción cambiará en siguientes versiones para homogeneizarlo al resto de la aplicación y simplificar la petición
-
-</aside>
+> ℹ️ El interfaz correspondiente a esta acción cambiará en siguientes versiones para homogeneizarlo al resto de la aplicación y simplificar la petición
 
 ![Captura de pantalla 2023-01-12 a las 12.10.41.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_12.10.41.png)
 
@@ -98,10 +92,7 @@ Para la solicitud de un nuevo servicio es necesario introducir:
 
 # Tareas y notificaciones
 
-<aside>
-ℹ️ El interfaz visual de las tareas y notificaciones es temporal y cambiará en siguientes versiones para acomodarse al aspecto global de la aplicación.
-
-</aside>
+> ℹ️ El interfaz visual de las tareas y notificaciones es temporal y cambiará en siguientes versiones para acomodarse al aspecto global de la aplicación.
 
 RESIDELIA Asset Management permite la definición flujos de tareas que se pueden enlazar al ciclo de vida de la gestión de un activo. 
 
@@ -138,10 +129,8 @@ Contiene toda la información relacionada con la descripción propia de la tarea
 - **Activo** → activo relacionado con la tarea. Cada tarea estará relacionada a un único activo.
 - **Estado de la tarea** → Los estados de una tarea son: ‘Pendiente de asignación’, ‘En progreso’, ‘Finalizada’. Cuando una tarea se pasa a finalizada, automáticamente se genera(n) la(s) tarea(s) que sigue en el flujo de trabajo.
 
-<aside>
-💡 Cuando una tarea está asignada a un usuario, sólo se muestra a dicho usuario. Cuando una  tarea no se encuentra asignada, dicha tarea se muestra a todos los usuarios que son candidatos a ejecutar la tarea para informar que existe una tarea por hacer.
+> 💡 Cuando una tarea está asignada a un usuario, sólo se muestra a dicho usuario. Cuando una  tarea no se encuentra asignada, dicha tarea se muestra a todos los usuarios que son candidatos a ejecutar la tarea para informar que existe una tarea por hacer.
 
-</aside>
 
 ## Notificaciones
 
@@ -179,10 +168,8 @@ En el menú de la barra lateral, seleccionamos [TAREAS](https://www.notion.so/Ta
 
 ![am-user-tasks.png](Saneamiento%20160d647f461a4405b0208765129d2872/am-user-tasks.png)
 
-<aside>
-💡 Tareas en las que se es candidato pero finalmente no se asigna desaparecen de la vista del usuario actual.
+> 💡 Tareas en las que se es candidato pero finalmente no se asigna desaparecen de la vista del usuario actual.
 
-</aside>
 
 A partir de ésta vista, el usuario empezará a trabajar en el trabajo que requiere su atención sin necesidad de tener que acceder a cada activo individualmente para conocer las acciones inmediatas que éste requiere.
 
@@ -202,10 +189,8 @@ A continuación indicamos los tipos de notificaciones definidas y cuándo se lan
 
 ## Workflow de reocupaciones
 
-<aside>
-ℹ️ Este workflow se rediseñará en un futuro para ser incorporado dentro del módulo de INCIDENCIAS que permitirá retomar partes del workflow en función del tipo de incidencia acaecida.
+> ℹ️ Este workflow se rediseñará en un futuro para ser incorporado dentro del módulo de INCIDENCIAS que permitirá retomar partes del workflow en función del tipo de incidencia acaecida.
 
-</aside>
 
 Durante el proceso de saneamiento ya sea jurídico o físico, incluso en fase de comercialización, un activo podría volver a ocuparse ilegalmente. Para indicar que el activo se encuentra en este estado, en el recuadro de posesión, seleccionaremos OCUPADO  a Sí.
 

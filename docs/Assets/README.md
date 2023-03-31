@@ -4,10 +4,8 @@ title: Activos
 # Activos
 
 ## [Listado](/Assets/Listado)
-<aside>
-ℹ️ Es posible mostrar u ocultar columnas del listado de activos. En la parte derecha, en la cabecera de las columnas, pulsar en el icono: **|||**
 
-</aside>
+> ℹ️ Es posible mostrar u ocultar columnas del listado de activos. En la parte derecha, en la cabecera de las columnas, pulsar en el icono: **|||**
 
 En el listado de activos de una cartera, es posible realizar las siguientes acciones:
 
@@ -87,10 +85,8 @@ Esta edición se extrapolará automáticamente a todos los activos perteneciente
 
 ### Secciones
 
-<aside>
-👉🏼 Para editar la información, hay que pulsar en el icono 📝 de la esquina superior derecha para establecer el modo de edición. En este modo, el icono será azul y podrás guardar los cambios pulsando en el icono 💾
+> 👉🏼 Para editar la información, hay que pulsar en el icono 📝 de la esquina superior derecha para establecer el modo de edición. En este modo, el icono será azul y podrás guardar los cambios pulsando en el icono 💾
 
-</aside>
 
 ## [Info](/Assets/Info)
 

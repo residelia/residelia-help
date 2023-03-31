@@ -3,10 +3,7 @@ title: Value Calculation
 ---
 # ¿Cómo es el cálculo del valor?
 
-<aside>
-ℹ️ Una vez que editas cualquier testigo manualmente, automáticamente el cálculo del valor unitario es la media del valor unitario de los testigos seleccionados.
-
-</aside>
+> ℹ️ Una vez que editas cualquier testigo manualmente, automáticamente el cálculo del valor unitario es la media del valor unitario de los testigos seleccionados.
 
 Para realizar el cálculo del valor unitario del activo, únicamente tenemos en cuenta los testigos seleccionados y no todos los comparables.
 

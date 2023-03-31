@@ -221,11 +221,7 @@ En la tabla de Activos de la agrupación, en modo edición, están disponibles o
 
 ## ¿Qué es una valoración firmada?
 
-<aside>
-
-ℹ️ La firma de una valoración tiene que realizarse como último paso antes de guardar la valoración.
-
-</aside>
+> ℹ️ La firma de una valoración tiene que realizarse como último paso antes de guardar la valoración.
 
 El principal objetivo de una valoración firmada es que el usuario, marcando esta opción, confirma el valor, y de esta forma, diferencia esta valoración frente al histórico de valoraciones restante.
 

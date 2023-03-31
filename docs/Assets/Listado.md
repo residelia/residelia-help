@@ -3,10 +3,7 @@ title: List
 ---
 # Listado
 
-<aside>
-ℹ️ Es posible mostrar u ocultar columnas del listado de activos. En la parte derecha, en la cabecera de las columnas, pulsar en el icono: **|||**
-
-</aside>
+> ℹ️ Es posible mostrar u ocultar columnas del listado de activos. En la parte derecha, en la cabecera de las columnas, pulsar en el icono: **|||**
 
 En el listado de activos de una cartera, es posible realizar las siguientes acciones:
 

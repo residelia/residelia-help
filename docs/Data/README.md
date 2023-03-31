@@ -5,10 +5,7 @@ title: Data
 
 ## Portales Inmobiliarios (Oferta)
 
-<aside>
-ℹ️ La plataforma extrae la información de **Oferta** de los principales portales inmobiliarios *(Idealista, Fotocasa y pisos.com)* con una **actualización diaria** de las siguientes tipologías: Viviendas, Garajes, Trasteros, Comercial, Industrial y Oficinas.
-
-</aside>
+> ℹ️ La plataforma extrae la información de **Oferta** de los principales portales inmobiliarios *(Idealista, Fotocasa y pisos.com)* con una **actualización diaria** de las siguientes tipologías: Viviendas, Garajes, Trasteros, Comercial, Industrial y Oficinas.
 
 La plataforma almacena el gran volumen de registros (~20M) con todo el histórico de anuncios de los últimos años y el histórico de cambios (por ej. de precio) que ha sufrido un anuncio antes de retirarse del mercado. Por lo que, desde la plataforma, aunque el anuncio esté retirado del mercado, es posible acceder a todo el detalle de la información.
 
@@ -22,12 +19,9 @@ Así mismo, con el objetivo de que la información de mercado esté lo menos dis
 
 ## Fuentes Oficiales
 
-<aside>
-ℹ️ La plataforma extrae la información de multitud de fuentes oficiales con el objetivo de aglutinarlas en una única herramienta y que no sea necesario consultarlas externamente.
-
-Cada fuente puede publicar los datos con un desfase temporal respecto la actualidad, en gran parte por la consolidación de datos, por lo que la plataforma trata de **actualizar los datos lo más cerca posible de la publicación, normalmente de forma trimestral.**
-
-</aside>
+> ℹ️ La plataforma extrae la información de multitud de fuentes oficiales con el objetivo de aglutinarlas en una única herramienta y que no sea necesario consultarlas externamente.
+> 
+> Cada fuente puede publicar los datos con un desfase temporal respecto la actualidad, en gran parte por la consolidación de datos, por lo que la plataforma trata de **actualizar los datos lo más cerca posible de la publicación, normalmente de forma trimestral.**
 
 - **Registradores**:
     - Transacciones de cierre de todo el territorio nacional, que pueden utilizarse como comparables. 
