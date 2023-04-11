@@ -1,6 +1,3 @@
----
-title: Valuation Algorithm
----
 # ¿Cómo funciona el Algoritmo de Valoración AVM?
 
 El algoritmo de valoración AVM por el método de comparables, trata de obtener los mejores candidatos de comparables de mercado para que sirvan de base en la valoración del inmueble.

@@ -1,6 +1,4 @@
----
-title: List
----
+
 # Listado
 
 > ℹ️ Es posible mostrar u ocultar columnas del listado de activos. En la parte derecha, en la cabecera de las columnas, pulsar en el icono: **|||**
@@ -12,8 +10,8 @@ En el listado de activos de una cartera, es posible realizar las siguientes acci
 - Editar → Realizar acciones sobre el listado como formar grupos, archivar, etc…
 - Exportar Excel → Exportación de todos los datos de todos los activos de la cartera
 - Crear activo
-    - Individual → Creación de un activo nuevo a la cartera a través del formulario
-    - Masivo → Creación de activos de forma masiva a través del DT *(Más Info en 🏪 Carteras)*
+- Individual → Creación de un activo nuevo a la cartera a través del formulario
+- Masivo → Creación de activos de forma masiva a través del DT *(Más Info en 🏪 Carteras)*
 
 ![Untitled](/images/Assets/Untitled.png)
 

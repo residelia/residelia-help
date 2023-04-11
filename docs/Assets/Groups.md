@@ -1,9 +1,7 @@
----
-title: Groups
----
+
 # Grupos
 
-### **Creación Grupos**
+## **Creación Grupos**
 
 Los grupos de activos pueden formarse tanto de forma automática como de forma manual:
 
@@ -14,9 +12,7 @@ Los grupos de activos pueden formarse tanto de forma automática como de forma m
 2. En el listado de activos, con la opción de Editar el listado, se pueden formar manualmente grupos o añadir activos a grupos existentes:
     
     ![Untitled](/images/Groups/Untitled%201.png)
-    
-
-### **Vista Grupos**
+## **Vista Grupos**
 
 En el listado de activos, existe la opción de visualizar el listado de grupos:
 
@@ -35,8 +31,31 @@ Y seleccionando un grupo en particular, podemos ver los activos pertenecientes a
 Si todos los activos del grupo pertenecen a la misma Finca Catastral, la vista del grupo cambiará para ser lo más similar posible a un activo unitario y poder valorar de forma masiva:
 
 [Agrupación Finca Catastral](https://www.notion.so/Agrupaci-n-Finca-Catastral-1d204428cc41475ba7c76447f642976b)
-## Vista del Activo
 
-### Secciones
+## Agrupación Finca Catastral
 
-> 👉🏼 Para editar la información, hay que pulsar en el icono 📝 de la esquina superior derecha para establecer el modo de edición. En este modo, el icono será azul y podrás guardar los cambios pulsando en el icono 💾
+Cuando todos los activos de una agrupación pertenecen a la misma Finca Catastral, ésta se visualizará como si de un activo individual se tratase (con algunas diferencias) con el objetivo de que pueda valorarse de forma conjunta de una forma rápida y ágil.
+
+Cualquier cambio realizado a la agrupación, se extrapolará de forma automática a cada uno de los activos individuales que pertenecen al grupo.
+
+La edición individual de un activo que pertenece a una de estas agrupaciones es posible y puede realizarse la edición de cualquiera de las dos formas. Si la plataforma, al editar una agrupación, detecta que un activo ha sido editado individualmente, avisará al usuario para que tenga en cuenta que el cambio puede sobreescribir información existente.
+
+### **Info**
+
+![Untitled](/images/CadastralGroup/Untitled.png)
+
+### **Activos**
+
+![Untitled](/images/CadastralGroup/Untitled%201.png)
+
+### **Valoración**
+
+Para poder valorar los activos de la agrupación, es necesario que éstos estén correctamente distribuidos en subagrupaciones.
+
+[¿Por qué son necesarias las subagrupaciones?](/Faqs/#%C2%BFpor-que-son-necesarias-las-subagrupaciones)
+
+En la sección de Valoración, aparecen las subagrupaciones creadas donde podremos editar los comparables y el valor unitario de cada una de ellas.
+
+Esta edición se extrapolará automáticamente a todos los activos pertenecientes a la subagrupación modificada y el valor unitario se multiplicará por la superficie de cada activo.
+
+![Captura de Pantalla 2022-09-14 a las 16.18.08.png](/images/CadastralGroup/Captura_de_Pantalla_2022-09-14_a_las_16.18.08.png)

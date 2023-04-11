@@ -33,11 +33,16 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     logo: 'https://s3.eu-west-1.amazonaws.com/residelia.resources/logos/residelia_128x128.jpg',
-    // nav: [
-    //   {
-    //     text: 'admin',
-    //     link: '/admin/#'
-    //   },
+    nav: [
+      {
+        text: 'Guía de Usuario',
+        link: '/'
+      },
+      {
+        text: 'Faqs',
+        link: '/Faqs/'
+      }
+    ],
       // {
       //   text: 'Languages',  De esta manera podríamos hacer un un combo de opciones dentro del navbar
       //   ariaLabel: 'Language Menu',
@@ -46,22 +51,68 @@ module.exports = {
       //     { text: 'Japanese', link: '/language/japanese/' }
       //   ]
       // }
-    // ],
-    sidebar: [
-      {
-        title: 'Menú de Ayuda',
-        path: '/',
-        collapsable: false,
-        children:[
-          '/Portfolios/',
-          '/Assets/',
-          '/Assets/Management/',
-          '/Data/',
-          '/Faqs/'
-        ]
-      },
-      
-    ],
+    
+    sidebar: {
+      '/Faqs/': [
+        {title: 'FAQs', children: [
+          {title: 'Introducción',path: '/Faqs/', collapsable: true}, 
+          {title: 'Plataforma', children: ['/Faqs/Platform/Assets','/Faqs/Platform/Users']},
+          {title: 'Valoración', children: ['/Faqs/Valuation/ValuationAlgorithm','/Faqs/Valuation/ValuationAlgorithm','/Faqs/Valuation/ValuationAlgorithm']}
+        ]}
+      ], 
+
+      '/': [
+        {
+          title: 'Introducción',
+          path: '/',
+          collapsable: false,
+         },
+        {
+          title: 'Carteras',
+          path: '/Portfolios/',
+          collapsable: false,
+          children:[
+            '/Portfolios/CreatePortfolio',
+            '/Portfolios/Enrichment',
+            '/Portfolios/Valuation'
+            
+          ]
+        },
+        {
+          title: 'Activos',
+          path: '/Assets/',
+          collapsable: false,
+          children:[
+            '/Assets/CreateAsset',
+            '/Assets/Map',
+            '/Assets/Groups'
+          ]
+        },
+        {
+          title: 'Vista del activo',
+          path: '/AssetView/',
+          collapsable: false,
+          children:[
+            '/AssetView/Info',
+            '/AssetView/Valuation',
+            '/AssetView/Management',
+            '/AssetView/Task',
+            '/AssetView/Docs',
+            '/AssetView/History'
+          ]
+        },
+        {
+          title: 'Datos',
+          collapsable: false,
+          children:[
+            '/Data/realEstatePortals',
+            '/Data/propertyRegistrars',
+            '/Data/officialSources',
+            '/Data/otherSources'
+          ]
+        }
+      ]
+    },
   },
 
   /**

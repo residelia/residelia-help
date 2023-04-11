@@ -1,6 +1,4 @@
----
-title: Docs
----
+
 # Docs
 
 En la sección Docs podremos almacenar y gestionar la documentación asociada al activo. Es posible importar o descargar ficheros relacionados al activo, pudiendo etiquetar los archivos.
@@ -9,7 +7,7 @@ En la sección Docs podremos almacenar y gestionar la documentación asociada al
 
 ![Captura de pantalla 2023-01-12 a las 13.14.54.png](/images/Docs/Captura_de_pantalla_2023-01-12_a_las_13.14.54.png)
 
-### Exportación del Informe de Valoración PDF
+## Exportación del Informe de Valoración PDF
 
 En todo momento, con la información disponible del activo y su valoración, podemos exportar un PDF, con la opción de “Generar Informe”:
 

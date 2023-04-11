@@ -1,6 +1,4 @@
----
-title: Management
----
+
 # Saneamiento
 
 [Introducción](https://www.notion.so/Introducci-n-7f6534d15dfc469ea04b968d0532b8e7)
@@ -42,7 +40,7 @@ Ademas, el marcador azul indica el número de informes realizados sobre el activ
 - Lista de informes solicitado → se enumera en formato de tabla los informes de ocupación realizados sobre el activo.
 - Detalle del informe seleccionado → se muestra en la parte inferior el detalle del informe seleccionado en la lista arriba.
 
-Para saber si un informe se ha realizado de manera interna o se ha externalizado, pulsar en 
+Para saber si un informe se ha realizado de manera interna o se ha externalizado, pulsar en
 
 ![Captura de pantalla 2023-01-12 a las 11.26.19.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_11.26.19.png)
 
@@ -85,16 +83,16 @@ Para la solicitud de un nuevo servicio es necesario introducir:
 - El tipo de servicio: Informes de Ocupación, Mediaciones extrajudiciales, etc en función del número de servicios definidos en la plataforma.
 - El activo sobre el que se desea realizar el informe.
 - Pestaña de Descripción
-    - Se tiene la información de asignación al proveedor
-    - Fechas
-    - Estado de la evolución del servicio
+- Se tiene la información de asignación al proveedor
+- Fechas
+- Estado de la evolución del servicio
 - Pestaña de Informes donde se muestra el(los) informes que genera la petición de servicio y que el interviniente cumplimenta.
 
-# Tareas y notificaciones
+## Tareas y notificaciones
 
 > ℹ️ El interfaz visual de las tareas y notificaciones es temporal y cambiará en siguientes versiones para acomodarse al aspecto global de la aplicación.
 
-RESIDELIA Asset Management permite la definición flujos de tareas que se pueden enlazar al ciclo de vida de la gestión de un activo. 
+RESIDELIA Asset Management permite la definición flujos de tareas que se pueden enlazar al ciclo de vida de la gestión de un activo.
 
 Estos procesos son configurables y se pueden definir en función de parámetros cambiantes o tareas finalizadas. Las siguientes tareas en el workflow definido se lanzan automáticamente cuando un parámetro toma un determinado valor o bien cuando la tarea anterior se da por finalizada.
 
@@ -102,11 +100,11 @@ La definición de un workflow específico debe ser realizada por el equipo de RE
 
 La pestaña de TAREAS muestra la información de las tareas que se han lanzado y acometido dentro del workflow del saneamiento de un activo.
 
-# Tareas
+## Tareas
 
 ![Captura de Pantalla 2022-07-20 a las 13.28.30.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_Pantalla_2022-07-20_a_las_13.28.30.png)
 
-En la sección de tareas se muestran las tareas asociadas al activo, tanto las que están por completar como las completadas. 
+En la sección de tareas se muestran las tareas asociadas al activo, tanto las que están por completar como las completadas.
 
 Las tareas, se crean automáticamente en función del estado de saneamiento en el que se encuentra el activo, aunque también pueden crearse manualmente y siempre están asociadas a un activo concreto.
 
@@ -130,7 +128,6 @@ Contiene toda la información relacionada con la descripción propia de la tarea
 - **Estado de la tarea** → Los estados de una tarea son: ‘Pendiente de asignación’, ‘En progreso’, ‘Finalizada’. Cuando una tarea se pasa a finalizada, automáticamente se genera(n) la(s) tarea(s) que sigue en el flujo de trabajo.
 
 > 💡 Cuando una tarea está asignada a un usuario, sólo se muestra a dicho usuario. Cuando una  tarea no se encuentra asignada, dicha tarea se muestra a todos los usuarios que son candidatos a ejecutar la tarea para informar que existe una tarea por hacer.
-
 
 ## Notificaciones
 
@@ -160,7 +157,7 @@ Las notificaciones poseen un tipo definido y son configurables, tanto el tipo de
 
 ## Tareas y notificaciones del usuario
 
-### Tareas
+## Tareasa
 
 En el menú de la barra lateral, seleccionamos [TAREAS](https://www.notion.so/Tareas-y-notificaciones-fe967c1a10aa4f15895d8e9a6e195456) para mostrar todas las tareas de todos los activos en las que el usuario actual bien está asignado, bien es candidato para la asignación.
 
@@ -170,16 +167,15 @@ En el menú de la barra lateral, seleccionamos [TAREAS](https://www.notion.so/Ta
 
 > 💡 Tareas en las que se es candidato pero finalmente no se asigna desaparecen de la vista del usuario actual.
 
-
 A partir de ésta vista, el usuario empezará a trabajar en el trabajo que requiere su atención sin necesidad de tener que acceder a cada activo individualmente para conocer las acciones inmediatas que éste requiere.
 
-### Notificaciones
+### Notificacioness
 
-En el menú de la barra lateral, seleccionamos NOTIFICACIONES para visualizar todas las notificaciones que afectan a todos los activos. 
+En el menú de la barra lateral, seleccionamos NOTIFICACIONES para visualizar todas las notificaciones que afectan a todos los activos.
 
 ![screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png](Saneamiento%20160d647f461a4405b0208765129d2872/screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png)
 
-# Workflow por defecto de operación para Saneamiento Jurídico-Posesorio
+## Workflow por defecto de operación para Saneamiento Jurídico-Posesorio
 
 A continuación indicamos los tipos de tareas definidas y cuándo se lanzan para notificar a los usuarios las siguientes tareas a realizar:
 
@@ -190,7 +186,6 @@ A continuación indicamos los tipos de notificaciones definidas y cuándo se lan
 ## Workflow de reocupaciones
 
 > ℹ️ Este workflow se rediseñará en un futuro para ser incorporado dentro del módulo de INCIDENCIAS que permitirá retomar partes del workflow en función del tipo de incidencia acaecida.
-
 
 Durante el proceso de saneamiento ya sea jurídico o físico, incluso en fase de comercialización, un activo podría volver a ocuparse ilegalmente. Para indicar que el activo se encuentra en este estado, en el recuadro de posesión, seleccionaremos OCUPADO  a Sí.
 
