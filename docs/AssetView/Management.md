@@ -1,9 +1,33 @@
 
 # Saneamiento
 
-[Introducción](https://www.notion.so/Introducci-n-7f6534d15dfc469ea04b968d0532b8e7)
+## Introducción
 
-![Captura de pantalla 2023-01-12 a las 9.30.17.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_9.30.17.png)
+El proceso de Saneamiento Jurídico posesorio implica una serie de acciones que desembocan en la toma de posesión del activo inmobiliario. En función del tipo de adquisición del activo, el proceso varía de un caso a otro pero, a grandes rasgos, este proceso se articula de la siguiente manera:
+
+![Diagrama sin título.drawio.png](/images/Management/Diagrama_sin_titulo.drawio.png)
+
+En paralelo (no en todos los casos) se realizan las siguientes acciones:
+
+- Inscripción registral para la toma de posesión de la propiedad
+- Toma de posesión del activo físico. Para ello es necesario:
+  - Conocer el estado ocupacional
+  - En el caso de estar ocupado, habitualmente, iniciar en paralelo un procedimiento legal de desahucio un una mediación extrajudicial amistosa.
+
+El fin del proceso de saneamiento se tiene una vez el activo está inscrito en el registro de la propiedad con la nueva titularidad y se tiene posesión física del activo.
+
+## Tipos de adquisición
+
+Los tipos de adquisición de un activo son los siguientes:
+
+- Adjudicación Judicial como resultado de una ejecución hipotecaria.
+- Dación en pago mediante acuerdo con el deudor.
+- Compraventa de un REO o activo que ya no es un colateral de una deuda.
+- Otros casos
+
+En función del tipo, el workflow de saneamiento pintado arriba varía ligeramente.
+
+![Captura de pantalla 2023-01-12 a las 9.30.17.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_9.30.17.png)
 
 La sección presenta la siguiente información:
 
@@ -19,11 +43,11 @@ La sección presenta la siguiente información:
 
 Pulsando en el icono:
 
-![Captura de pantalla 2023-01-12 a las 11.02.32.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_11.02.32.png)
+![Captura de pantalla 2023-01-12 a las 11.02.32.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_11.02.32.png)
 
 Se desplegará la información de detalle sobre el proceso de inscripción:
 
-![Captura de pantalla 2023-01-12 a las 11.04.50.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_11.04.50.png)
+![Captura de pantalla 2023-01-12 a las 11.04.50.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_11.04.50.png)
 
 En el desplegable se muestra la información actualizada del estado último de la inscripción y de las cargas en caso de tenerlas. Además, existe un campo que permite anotaciones que pueden ser introducidas tanto por los gestores internos como por los intervinientes externos a cargo de la inscripción.
 
@@ -31,30 +55,30 @@ En el desplegable se muestra la información actualizada del estado último de l
 
 Para el acceso a la información de detalle, es necesario pulsar:
 
-![Captura de pantalla 2023-01-12 a las 11.11.17.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_11.11.17.png)
+![Captura de pantalla 2023-01-12 a las 11.11.17.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_11.11.17.png)
 
 Ademas, el marcador azul indica el número de informes realizados sobre el activo. En el desplegable encontramos la siguiente información
 
-![Captura de pantalla 2023-01-12 a las 11.23.43.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_11.23.43.png)
+![Captura de pantalla 2023-01-12 a las 11.23.43.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_11.23.43.png)
 
 - Lista de informes solicitado → se enumera en formato de tabla los informes de ocupación realizados sobre el activo.
 - Detalle del informe seleccionado → se muestra en la parte inferior el detalle del informe seleccionado en la lista arriba.
 
 Para saber si un informe se ha realizado de manera interna o se ha externalizado, pulsar en
 
-![Captura de pantalla 2023-01-12 a las 11.26.19.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_11.26.19.png)
+![Captura de pantalla 2023-01-12 a las 11.26.19.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_11.26.19.png)
 
 Mostrándose la información del servicio encargado para la realización del informe. *(Ver Peticiones de Servicio abajo)*
 
 > ℹ️ En siguientes versiones, el interfaz que muestra la información cambiará para homogeneizarse con el resto de la aplicación.
 
-![Captura de pantalla 2023-01-12 a las 11.56.26.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_11.56.26.png)
+![Captura de pantalla 2023-01-12 a las 11.56.26.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_11.56.26.png)
 
 ## Mediaciones Extrajudiciales
 
 De la misma forma que los informes de ocupación, el acceso a la información de detalle se realiza con los mismos pasos.
 
-![Captura de pantalla 2023-01-12 a las 12.22.43.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_12.22.43.png)
+![Captura de pantalla 2023-01-12 a las 12.22.43.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_12.22.43.png)
 
 Donde se pueden crear más procesos y ver la información de detalle de cada mediación así como la información de la propuesta una vez aceptada la negociación (hasta que no se ha aceptado no se muestra la información de propuesta de desalojo).
 
@@ -62,21 +86,21 @@ Donde se pueden crear más procesos y ver la información de detalle de cada med
 
 En el caso de los procedimientos de desahucio, la operativa será la misma que para los informes de ocupación y las mediaciones extrajudiciales.
 
-![Captura de pantalla 2023-01-12 a las 12.25.21.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_12.25.21.png)
+![Captura de pantalla 2023-01-12 a las 12.25.21.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_12.25.21.png)
 
 ## Peticiones de Servicio
 
 Cuando se proceda con la creación de un informe nuevo ya sea de ocupación, encargo de mediación o registro o un desahucio:
 
-![Captura de pantalla 2023-01-12 a las 12.00.29.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_12.00.29.png)
+![Captura de pantalla 2023-01-12 a las 12.00.29.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_12.00.29.png)
 
-![Captura de pantalla 2023-01-12 a las 12.00.56.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_12.00.56.png)
+![Captura de pantalla 2023-01-12 a las 12.00.56.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_12.00.56.png)
 
 Se mostrará un menú para seleccionar si el informe se realizará internamente o externamente a través de un interviniente. Si la selección es interna, el informe se creará y será visible a través del desplegable correspondiente al tipo de informe creándose una entrada más en la lista. Si el informe se realizara externamente, se mostrará la ventana de nueva petición de servicio.
 
 > ℹ️ El interfaz correspondiente a esta acción cambiará en siguientes versiones para homogeneizarlo al resto de la aplicación y simplificar la petición
 
-![Captura de pantalla 2023-01-12 a las 12.10.41.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_12.10.41.png)
+![Captura de pantalla 2023-01-12 a las 12.10.41.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_12.10.41.png)
 
 Para la solicitud de un nuevo servicio es necesario introducir:
 
@@ -102,13 +126,13 @@ La pestaña de TAREAS muestra la información de las tareas que se han lanzado y
 
 ## Tareas
 
-![Captura de Pantalla 2022-07-20 a las 13.28.30.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_Pantalla_2022-07-20_a_las_13.28.30.png)
+![Captura de Pantalla 2022-07-20 a las 13.28.30.png](/images/Management/Captura_de_Pantalla_2022-07-20_a_las_13.28.30.png)
 
 En la sección de tareas se muestran las tareas asociadas al activo, tanto las que están por completar como las completadas.
 
 Las tareas, se crean automáticamente en función del estado de saneamiento en el que se encuentra el activo, aunque también pueden crearse manualmente y siempre están asociadas a un activo concreto.
 
-![Untitled](Saneamiento%20160d647f461a4405b0208765129d2872/Untitled.png)
+![Untitled](/images/Management/Untitled.png)
 
 La información que muestra cada tarea es la siguiente:
 
@@ -133,7 +157,7 @@ Contiene toda la información relacionada con la descripción propia de la tarea
 
 En la página principal de la información del activo se muestran las notificaciones referentes al propio activo:
 
-![Captura de Pantalla 2022-05-30 a las 11.33.00.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_Pantalla_2022-05-30_a_las_11.33.00.png)
+![Captura de Pantalla 2022-05-30 a las 11.33.00.png](/images/Management/Captura_de_Pantalla_2022-05-30_a_las_11.33.00.png)
 
 Dichas notificaciones son configurable y se puede definir bajo qué condiciones de información de una activo lanzarlas. Esta configuración es necesario realizarla con el equipo de RESIDELIA para ajustarla a la necesidad concreta de cada cliente.
 
@@ -153,7 +177,7 @@ Las notificaciones se asignan por defecto al responsable del activo y se muestra
 
 Las notificaciones poseen un tipo definido y son configurables, tanto el tipo de notificación como cuándo han de lanzarse.
 
-![Untitled](Saneamiento%20160d647f461a4405b0208765129d2872/Untitled%201.png)
+![Untitled](/images/Management/Untitled%201.png)
 
 ## Tareas y notificaciones del usuario
 
@@ -161,9 +185,9 @@ Las notificaciones poseen un tipo definido y son configurables, tanto el tipo de
 
 En el menú de la barra lateral, seleccionamos [TAREAS](https://www.notion.so/Tareas-y-notificaciones-fe967c1a10aa4f15895d8e9a6e195456) para mostrar todas las tareas de todos los activos en las que el usuario actual bien está asignado, bien es candidato para la asignación.
 
-![Captura de Pantalla 2022-07-21 a las 8.42.50.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_Pantalla_2022-07-21_a_las_8.42.50.png)
+![Captura de Pantalla 2022-07-21 a las 8.42.50.png](/images/Management/Captura_de_Pantalla_2022-07-21_a_las_8.42.50.png)
 
-![am-user-tasks.png](Saneamiento%20160d647f461a4405b0208765129d2872/am-user-tasks.png)
+![am-user-tasks.png](/images/Management/am-user-tasks.png)
 
 > 💡 Tareas en las que se es candidato pero finalmente no se asigna desaparecen de la vista del usuario actual.
 
@@ -173,7 +197,7 @@ A partir de ésta vista, el usuario empezará a trabajar en el trabajo que requi
 
 En el menú de la barra lateral, seleccionamos NOTIFICACIONES para visualizar todas las notificaciones que afectan a todos los activos.
 
-![screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png](Saneamiento%20160d647f461a4405b0208765129d2872/screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png)
+![screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png](/images/Management/screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png)
 
 ## Workflow por defecto de operación para Saneamiento Jurídico-Posesorio
 
@@ -181,7 +205,7 @@ A continuación indicamos los tipos de tareas definidas y cuándo se lanzan para
 
 A continuación indicamos los tipos de notificaciones definidas y cuándo se lanzan:
 
-![Untitled](Saneamiento%20160d647f461a4405b0208765129d2872/Untitled%202.png)
+![Untitled](/images/Management/Untitled%202.png)
 
 ## Workflow de reocupaciones
 
@@ -189,7 +213,7 @@ A continuación indicamos los tipos de notificaciones definidas y cuándo se lan
 
 Durante el proceso de saneamiento ya sea jurídico o físico, incluso en fase de comercialización, un activo podría volver a ocuparse ilegalmente. Para indicar que el activo se encuentra en este estado, en el recuadro de posesión, seleccionaremos OCUPADO  a Sí.
 
-![Captura de pantalla 2023-01-12 a las 14.35.28.png](Saneamiento%20160d647f461a4405b0208765129d2872/Captura_de_pantalla_2023-01-12_a_las_14.35.28.png)
+![Captura de pantalla 2023-01-12 a las 14.35.28.png](/images/Management/Captura_de_pantalla_2023-01-12_a_las_14.35.28.png)
 
 Esto lanzará una tarea interna de:
 

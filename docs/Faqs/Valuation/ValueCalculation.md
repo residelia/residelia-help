@@ -1,7 +1,7 @@
 ---
-title: Value Calculation
+title: Cálculo del Valor
 ---
-# ¿Cómo es el cálculo del valor?
+## ¿Cómo es el cálculo del valor?
 
 > ℹ️ Una vez que editas cualquier testigo manualmente, automáticamente el cálculo del valor unitario es la media del valor unitario de los testigos seleccionados.
 

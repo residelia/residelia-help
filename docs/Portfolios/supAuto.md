@@ -1,9 +1,7 @@
 ---
 title: Sup. Auto
 ---
-# supAuto
-
-# ¿Cómo funciona Sup. Auto?
+## ¿Cómo funciona Sup. Auto?
 
 De cara a ofrecer la mejor valoración del inmueble, el parámetro más determinante es la superficie de éste. Es por ello que hacemos un análisis específico para determinar cuál es la superficie más adecuada para el inmueble.
 

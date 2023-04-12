@@ -1,5 +1,7 @@
-
-# Valoración
+---
+title: Valoración
+---
+## Valoración
 
 Después de obtener la información más completa posible de cada activo, la plataforma, a través del Algoritmo AVM, realiza una valoración en AVM por cada uno de los activos.
 

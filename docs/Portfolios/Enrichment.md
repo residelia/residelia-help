@@ -1,4 +1,7 @@
-# Enriquecimiento del activo
+---
+title: Enriquecimiento del activo
+---
+## Enriquecimiento del activo
 
 Una vez recibida toda la información de los activos de la cartera, la plataforma realiza una serie de operaciones con el objetivo de enriquecer la información con las diversas fuentes disponibles en la herramienta *(Más info en* 📊 *Datos)*: Catastro, Google Maps, Google Street View, INE, Fomento, Agencia Tributaria, etc…
 

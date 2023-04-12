@@ -39,7 +39,7 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Faqs',
+        text: 'FAQs',
         link: '/Faqs/'
       }
     ],
@@ -54,11 +54,28 @@ module.exports = {
     
     sidebar: {
       '/Faqs/': [
-        {title: 'FAQs', children: [
-          {title: 'Introducción',path: '/Faqs/', collapsable: true}, 
-          {title: 'Plataforma', children: ['/Faqs/Platform/Assets','/Faqs/Platform/Users']},
-          {title: 'Valoración', children: ['/Faqs/Valuation/ValuationAlgorithm','/Faqs/Valuation/ValuationAlgorithm','/Faqs/Valuation/ValuationAlgorithm']}
-        ]}
+          {
+            title: 'Plataforma',
+            path: '/Faqs/Platform/',
+            collapsable: false,
+            children:[
+              '/Faqs/Platform/Assets',
+              '/Faqs/Platform/Users'
+            ]
+          },
+          {
+            title: 'Valoración',
+            path: '/Faqs/Valuation/',
+            collapsable: false,
+            children:[
+              '/Faqs/Valuation/ValuationAlgorithm',
+              '/Faqs/Valuation/SimilarityPercentage',
+              '/Faqs/Valuation/ValueCalculation'
+            ]
+          },
+          
+         
+        
       ], 
 
       '/': [
