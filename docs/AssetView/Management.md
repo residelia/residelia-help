@@ -1,4 +1,3 @@
-
 # Saneamiento
 
 ## Introducción
@@ -124,7 +123,7 @@ La definición de un workflow específico debe ser realizada por el equipo de RE
 
 La pestaña de TAREAS muestra la información de las tareas que se han lanzado y acometido dentro del workflow del saneamiento de un activo.
 
-## Tareas
+### Tareas
 
 ![Captura de Pantalla 2022-07-20 a las 13.28.30.png](/images/Management/Captura_de_Pantalla_2022-07-20_a_las_13.28.30.png)
 
@@ -139,7 +138,7 @@ La información que muestra cada tarea es la siguiente:
 - Definición de Tarea → se trata del tipo de tarea y que define qué acción hay que realizar a continuación sobre el activo.
 - Parámetros Generales → se dividen por pestañas: DESCRIPCIÓN, ACTUACIONES y ARCHIVOS.
 
-## Descripción
+### Descripción
 
 Contiene toda la información relacionada con la descripción propia de la tarea:
 
@@ -153,7 +152,7 @@ Contiene toda la información relacionada con la descripción propia de la tarea
 
 > 💡 Cuando una tarea está asignada a un usuario, sólo se muestra a dicho usuario. Cuando una  tarea no se encuentra asignada, dicha tarea se muestra a todos los usuarios que son candidatos a ejecutar la tarea para informar que existe una tarea por hacer.
 
-## Notificaciones
+### Notificaciones
 
 En la página principal de la información del activo se muestran las notificaciones referentes al propio activo:
 
@@ -181,9 +180,9 @@ Las notificaciones poseen un tipo definido y son configurables, tanto el tipo de
 
 ## Tareas y notificaciones del usuario
 
-## Tareasa
+### Tareas del usuario
 
-En el menú de la barra lateral, seleccionamos [TAREAS](https://www.notion.so/Tareas-y-notificaciones-fe967c1a10aa4f15895d8e9a6e195456) para mostrar todas las tareas de todos los activos en las que el usuario actual bien está asignado, bien es candidato para la asignación.
+En el menú de la barra lateral, seleccionamos **TAREAS** para mostrar todas las tareas de todos los activos en las que el usuario actual bien está asignado, bien es candidato para la asignación.
 
 ![Captura de Pantalla 2022-07-21 a las 8.42.50.png](/images/Management/Captura_de_Pantalla_2022-07-21_a_las_8.42.50.png)
 
@@ -193,7 +192,7 @@ En el menú de la barra lateral, seleccionamos [TAREAS](https://www.notion.so/Ta
 
 A partir de ésta vista, el usuario empezará a trabajar en el trabajo que requiere su atención sin necesidad de tener que acceder a cada activo individualmente para conocer las acciones inmediatas que éste requiere.
 
-### Notificacioness
+### Notificaciones del usuario
 
 En el menú de la barra lateral, seleccionamos NOTIFICACIONES para visualizar todas las notificaciones que afectan a todos los activos.
 

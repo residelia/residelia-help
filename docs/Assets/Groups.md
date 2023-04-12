@@ -50,10 +50,49 @@ La edición individual de un activo que pertenece a una de estas agrupaciones es
 
 Para poder valorar los activos de la agrupación, es necesario que éstos estén correctamente distribuidos en subagrupaciones.
 
-[¿Por qué son necesarias las subagrupaciones?](/Faqs/#%C2%BFpor-que-son-necesarias-las-subagrupaciones)
-
 En la sección de Valoración, aparecen las subagrupaciones creadas donde podremos editar los comparables y el valor unitario de cada una de ellas.
 
 Esta edición se extrapolará automáticamente a todos los activos pertenecientes a la subagrupación modificada y el valor unitario se multiplicará por la superficie de cada activo.
 
 ![Captura de Pantalla 2022-09-14 a las 16.18.08.png](/images/CadastralGroup/Captura_de_Pantalla_2022-09-14_a_las_16.18.08.png)
+
+## ¿Qué características se enriquecen de forma automática?
+
+Con la información disponible de Catastro, la plataforma puede interpretar ciertas características como primera estimación de forma automática.
+
+Toda esta información automática se puede editar manualmente a posteriori para que los datos del inmueble sean lo más precisos posible.
+
+**Habitaciones**
+
+Con la superficie exclusivamente de la Vivienda, realizamos una estimación del número de habitaciones.
+
+- Para edificaciones anteriores al año 2000:
+    - Hasta 30 m² → Estudio
+    - De 30 a 50 m² → 1 habitación
+    - De 50 a 80 m² → 2 habitaciones
+    - De 80 a 100 m² → 3 habitaciones
+    - A partir 100 m² → 4 habitaciones
+- Para edificaciones posteriores al año 2000:
+    - Hasta 40 m² → Estudio
+    - De 40 a 65 m² → 1 habitación
+    - De 65 a 95 m² → 2 habitaciones
+    - De 95 a 130 m² → 3 habitaciones
+    - A partir de 130 m² → 4 habitaciones
+
+**Ascensor**
+
+Estimamos de forma automática si una vivienda plurifamiliar tiene ascensor si el edificio se ha construido posteriormente al año 1974 y cuenta con más de 4 alturas.
+
+**Otros Anejos**
+
+Con los elementos constructivos tanto del inmueble como de la finca catastral, podemos estimar si la vivienda tiene los anejos de: Garaje, Trastero, Terraza, Jardín, Piscina e Instalaciones Deportivas.
+
+**Tipología**
+
+En los inmuebles de uso catastral “Almacén -Estacionamiento”, podemos discernir con los elementos constructivos si se trata de un Garaje o Trastero.
+
+**Calidad Inmueble**
+
+Catastro cuenta con un parámetro de calidad del inmueble que nos ayuda a estimar un valor inicial de la calidad constructiva:
+
+![Untitled](/images/Assets/caracteristicasautom.png)

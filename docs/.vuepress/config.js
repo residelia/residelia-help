@@ -56,7 +56,6 @@ module.exports = {
       '/Faqs/': [
           {
             title: 'Plataforma',
-            path: '/Faqs/Platform/',
             collapsable: false,
             children:[
               '/Faqs/Platform/Assets',
@@ -65,7 +64,6 @@ module.exports = {
           },
           {
             title: 'Valoración',
-            path: '/Faqs/Valuation/',
             collapsable: false,
             children:[
               '/Faqs/Valuation/ValuationAlgorithm',

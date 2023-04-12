@@ -14,7 +14,7 @@ En primer lugar, después de obtener la información más completa posible del a
 
 Esta valoración AVM es una primera estimación del valor del activo. Es el primer paso entre distintos tipos de valoración, pudiendo afinar mucho más la valoración trabajando el activo de forma manual.
 
-[¿Cómo funciona el Algoritmo de Valoración AVM?](../Faqs/ValuationAlgorithm.md)
+[¿Cómo funciona el Algoritmo de Valoración AVM?](/Faqs/Valuation/ValuationAlgorithm.md)
 
 ## Valoración Manual
 
@@ -36,8 +36,6 @@ Si la plataforma ha realizado una valoración automática AVM, el listado de com
 
 En este listado de comparables, se pueden eliminar, seleccionar/deseleccionar, editar y añadir los comparables necesarios de cara a la valoración.
 
-[¿Cómo se añaden comparables a la valoración?](https://www.notion.so/C-mo-se-a-aden-comparables-a-la-valoraci-n-85d845c1a60c4f90b1d43f48cbc1e7c2)
-
 Así mismo, existen dos columnas adicionales en cada comparable:
 
 - Porcentaje de Negociación → Descuento del valor unitario del comparable.
@@ -51,25 +49,57 @@ El tipo de valoración es editable según la consideración del usuario:
 
 ![Captura de pantalla 2023-01-13 a las 16.39.24.png](/images/ManualValuation/Captura_de_pantalla_2023-01-13_a_las_16.39.24.png)
 
-[**¿Qué es una valoración firmada?**](https://www.notion.so/Qu-es-una-valoraci-n-firmada-7e265ead61804f73aca8fd64f91af6cc)
-
-**CAPEX**
+## CAPEX
 
 Existe la posibilidad de adjuntar un listado de partidas de CAPEX (o incluir únicamente el total) para posteriormente decidir si descontar este CAPEX a la valoración.
 
 ![Untitled](/images/ManualValuation/Untitled%201.png)
 
-**Histórico de Valores**
+## ¿Cómo se añaden comparables a la valoración?
 
-Por un lado, el **histórico de valoraciones** detallan todas las valoraciones realizadas en la plataforma con su diferente tipología, valor o fecha.
+### Mapa / Listado
 
-Los **valores de referencia**, son aquellos valores que pueden obtenerse externamente y que son útiles para tenerlos de referencia de cara a la valoración: Vendedor, Tasación, Real Estate, Broker Deuda pendiente y Valor UW.
+Seleccionando la capa de datos deseada:
 
-Todos estos valores, tanto las valoraciones internas como los valores de referencia, pueden importarse directamente al crear la cartera a través del DT en la pestaña *Valuations* de la plantilla Excel.
+![Untitled](/images/AssetView/Untitled.png)
 
-![Captura de Pantalla 2022-10-07 a las 9.32.56.png](/images/ManualValuation/Captura_de_Pantalla_2022-10-07_a_las_9.32.56.png)
+Todos los resultados aparecen en el mapa pero también en la pestaña de “Comparables”.
 
-# Barra lateral
+Al pulsar en el POI del mapa o en el icono de detalle de los resultados:
+
+![Captura de Pantalla 2022-07-27 a las 17.04.25.png](/images/AssetView/CAPTUR.png)
+
+Podemos añadir el comparable o bien desde el icono del listado o desde el detalle del comparable:
+
+![Untitled](/images/AssetView/Untitled%201.png)
+
+![Untitled](/images/AssetView/Untitled%202.png)
+
+### Formulario
+
+En el listado de testigos, seleccionando la opción de “Nuevo Comparable”, se despliega un formulario donde podremos incluir manualmente la información del comparable.
+
+![Untitled](/images/AssetView/Untitled%203.png)
+
+![Untitled](/images/AssetView/Untitled%204.png)
+
+## ¿Qué es una valoración firmada?
+
+<aside>
+
+ℹ️ La firma de una valoración tiene que realizarse como último paso antes de guardar la valoración.
+
+</aside>
+
+El principal objetivo de una valoración firmada es que el usuario, marcando esta opción, confirma el valor, y de esta forma, diferencia esta valoración frente al histórico de valoraciones restante.
+
+Si tu organización tiene una integración con RESIDELIA, esta opción desencadenaría el traspaso de información (Datos e Informe PDF) de forma automática a los sistemas de tu organización para evitar duplicar el trabajo en el otro sistema.
+
+![Captura de pantalla 2023-01-13 a las 16.36.00.png](/images/AssetView/ValoracionFirmadaMapa.png)
+
+![Untitled](/images/AssetView/HistoricoValores.png)
+
+## Barra lateral
 
 La barra lateral derecha contiene estadísticas de mercado, socio-demográficas e ingresos de la zona del activo a valorar.
 
@@ -81,8 +111,6 @@ La barra lateral derecha contiene estadísticas de mercado, socio-demográficas 
 
 Así mismo esta barra, puede contener la información de los mapas, capas, filtros y POIs, pulsando en el mapa las opciones:
 
-[¿Existe un pre-filtro?](https://www.notion.so/Existe-un-pre-filtro-1927ae28ceae451fa13faeaab1232ca3)
-
 ![Untitled](/images/ManualValuation/Untitled%205.png)
 
 ![Untitled](/images/ManualValuation/Untitled%206.png)
@@ -93,6 +121,17 @@ Así mismo esta barra, puede contener la información de los mapas, capas, filtr
 
 ![Untitled](/images/ManualValuation/Untitled%209.png)
 
+### ¿Existe un pre-filtro?
+
+Sí, al seleccionar las capas de Oferta o Cierres, de manera automática se establece un pre-filtro (indicador azul en el icono) como apoyo para no tener que realizar el filtro de forma manual en todas las valraciones.
+
+De todas formas, de forma manual, el usuario puede activar o desactivar los filtros deseados en todo momento.
+
+### Pre-filtros
+
+  **Oferta**: Anuncios activos, ±~25% superficie y coincidente en habitaciones.
+  **Cierres**: Misma tipología y los tres últimos años.
+
 ## Histórico de Valores
 
 Por un lado, el **histórico de valoraciones** detallan todas las valoraciones realizadas en la plataforma con su diferente tipología, valor o fecha.
@@ -102,17 +141,3 @@ Los **valores de referencia**, son aquellos valores que pueden obtenerse externa
 Todos estos valores, tanto las valoraciones internas como los valores de referencia, pueden importarse directamente al crear la cartera a través del DT en la pestaña *Valuations* de la plantilla Excel.
 
 ![Captura de Pantalla 2022-10-07 a las 9.32.56.png](/images/Valuation/Captura_de_Pantalla_2022-10-07_a_las_9.32.56.png)
-
-## Exportación del Informe de Valoración PDF
-
-En todo momento, con la información disponible del activo y su valoración, podemos exportar un PDF, con la opción de “Generar Informe” en la sección “Docs”:
-
-![Untitled](/images/Valuation/Untitled.png)
-
-Al seleccionar la opción, se despliega un formulario para personalizar el informe:
-
-- Idioma
-- Imágenes
-- Anexos PDF
-
-![Untitled](/images/Valuation/Untitled%201.png)
