@@ -19,9 +19,9 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Management" # Used in routes, e.g., /admin/collections/blog
-    label: "Management Section" # Used in the UI
-    folder: "docs/Assets/Management" # The path to the folder where the documents are stored
+  - name: "AssetView" # Used in routes, e.g., /admin/collections/blog
+    label: "Asset View Section" # Used in the UI
+    folder: "docs/AssetView" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -46,6 +46,22 @@ collections:
   - name: "Faqs" # Used in routes, e.g., /admin/collections/blog
     label: "Faqs Section" # Used in the UI
     folder: "docs/Faqs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Platform" # Used in routes, e.g., /admin/collections/blog
+    label: "Platform Section" # Used in the UI
+    folder: "docs/Faqs/Platform" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Valuation" # Used in routes, e.g., /admin/collections/blog
+    label: "Valuation Section" # Used in the UI
+    folder: "docs/Faqs/Valuation" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
