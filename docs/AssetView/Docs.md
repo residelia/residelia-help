@@ -1,4 +1,6 @@
-
+---
+title: Docs
+---
 # Docs
 
 En la sección Docs podremos almacenar y gestionar la documentación asociada al activo. Es posible importar o descargar ficheros relacionados al activo, pudiendo etiquetar los archivos.

@@ -1,3 +1,6 @@
+---
+title: Info
+---
 # Info
 
 Sección para editar la información de localización, características, comentarios, superficies, etc…relacionada al activo.
