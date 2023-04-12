@@ -1,4 +1,6 @@
-
+---
+title: Grupos
+---
 # Grupos
 
 ## **Creación Grupos**
