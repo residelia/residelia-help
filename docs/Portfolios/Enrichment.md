@@ -69,7 +69,17 @@ Con los elementos constructivos tanto del inmueble como de la finca catastral, p
 
 **Tipología**
 
-*TBD*
+A partir de la información Catastral, a través del Uso del inmueble, se puede deducir cuál es la tipología en el árbol de la plataforma.
+
+Hay dos Usos Catastrales, donde actualmente aplicamos una lógica más profunda para determinar la subtipología utilizando la información de los destinos y tipologías de las unidades constructivas del inmueble.
+
+- Almacén - Estacionamiento: La plataforma es capaz de obtener si el activo es de tipología Garaje o Trastero, y en el caso del Garaje, a través de su superficie si es de Coche o Moto.
+
+- Residencial: La plataforma es capaz de obtener si el activo es de tipología Vivienda Multifamiliar o Unifamiliar.
+  - Multifamiliar: A través de las plantas de sus unidades constructivas, podemos determinar si se trata de un Duplex o Triplex.
+  - Unifamiliar: A través de la modalidad de su tipología y modalidad de sus unidades constructivas, podemos determinar si se trata de un Chalet aislado, adosado o pareado.
+
+
 
 **Calidad Inmueble**
 

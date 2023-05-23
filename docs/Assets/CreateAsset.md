@@ -7,3 +7,5 @@ Es posible crear activos a una cartera existente con las siguientes opciones en 
 
   - Individual → Creación de un activo a la cartera a través del formulario
   - Masivo → Mismo procedimiento que la [creación de una cartera](/Portfolios/CreatePortfolio.html), pero incluyendo los nuevos activos en la cartera existente
+
+[Más info](/Portfolios/Enrichment.html) sobre el proceso de enriquecimiento del activo.
