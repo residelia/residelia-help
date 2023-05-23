@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Sección Ayuda Residelia',
+  title: 'Ayuda',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -66,9 +66,7 @@ module.exports = {
             title: 'Valoración',
             collapsable: false,
             children:[
-              '/Faqs/Valuation/ValuationAlgorithm',
-              '/Faqs/Valuation/SimilarityPercentage',
-              '/Faqs/Valuation/ValueCalculation'
+              '/Faqs/Valuation/ValuationAlgorithm'
             ]
           },
           
@@ -104,7 +102,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Vista del activo',
+          title: 'Vista del Activo',
           path: '/AssetView/',
           collapsable: false,
           children:[
@@ -120,8 +118,8 @@ module.exports = {
           title: 'Datos',
           collapsable: false,
           children:[
-            '/Data/realEstatePortals',
-            '/Data/propertyRegistrars',
+            '/Data/Listings',
+            '/Data/Closings',
             '/Data/officialSources',
             '/Data/otherSources'
           ]

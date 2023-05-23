@@ -3,7 +3,7 @@ title: Enriquecimiento del activo
 ---
 # Enriquecimiento del activo
 
-Una vez recibida toda la información de los activos de la cartera, la plataforma realiza una serie de operaciones con el objetivo de enriquecer la información con las diversas fuentes disponibles en la herramienta *(Más info en* 📊 *Datos)*: Catastro, Google Maps, Google Street View, INE, Fomento, Agencia Tributaria, etc…
+Una vez recibida toda la información de los activos de la cartera, la plataforma realiza una serie de operaciones con el objetivo de enriquecer la información con las diversas fuentes disponibles en la herramienta: Catastro, Google Maps, Google Street View, INE, Fomento, Agencia Tributaria, etc…
 
 A partir de la información disponible de cada activo, la aplicación empleará diferentes automatismos para tratar de determinar, con la mayor precisión posible, las características del inmueble.
 
@@ -11,7 +11,8 @@ A partir de la información disponible de cada activo, la aplicación empleará 
 
 Disponemos de dos fuentes para determinar la localización del activo: Catastro y Google Maps.
 
-1. Si el activo cuenta con una Referencia Catastral correcta, utilizamos esta fuente para obtener la dirección completa (con bloque y planta en el caso de Pisos), las coordenadas geográficas y la foto de la fachada de Catastro.
+1. Si el activo cuenta con una Referencia Catastral correcta, utilizamos esta fuente para obtener la dirección completa (con bloque y planta en el caso de vivienda multifamiliar), las coordenadas geográficas y la foto de la fachada de Catastro.
+
 2. Si el activo no dispone de una Referencia Catastral, a través de Google Maps, primeramente con las coordenadas geográficas, o en su defecto con la dirección en formato texto, localizamos el inmueble en la ubicación más precisa posible.
 
 Una vez el inmueble está correctamente localizado, enriquecemos la información con su correspondencia con el municipio INE, sección censal, código postal, etc…con el objetivo de obtener la información estadística de la zona.
@@ -23,13 +24,14 @@ De cara a ofrecer la mejor valoración del inmueble, el parámetro más determin
 Cuando tenemos más de una superficie, normalmente la introducida por el usuario (o datatape) y las proporcionadas por Catastro, tenemos que decidir cuál de ellas tiene preferencia. 
 
 * En el caso de que el inmueble sea una **vivienda unifamiliar**, la superficie catastral que tenemos en cuenta es la **superficie construida total**.
-* En el caso de **viviendas plurifamiliares**, dependiendo de la superficie de **elementos comunes asociada (límite 13%)**, tenemos en cuenta la **superficie de la vivienda más la superficie de comunes de forma completa o parcial**.
+* En el caso de **viviendas multifamiliar**, dependiendo de la superficie de **elementos comunes asociada (límite 13%)**, tenemos en cuenta la **superficie de la vivienda más la superficie de comunes de forma completa o parcial**.
 
 La superficie catastral elegida dependiendo de la tipología, se compara con la introducida por el usuario (o datatape):
 
 * Diferencia mayor del 15% → Se escoge la Catastral para evitar que el dato introducido pudiera ser erróneo.
+    
+    > En estos casos, en el listado de activos, se marca un *Warning* ⚠️ para tenerlo en cuenta y que en la valoración manual del activo pueda elegirse la superficie deseada.
 
-    ℹ️ En estos casos, en el listado de activos, se marca un *Warning* ⚠️ para tenerlo en cuenta y que en la valoración del activo manual pueda elegirse la superficie deseada.
 * Diferencia menor del 15% → Se escoge la introducida por el usuario (o datatape), ya que habitualmente esta superficie puede venir de Registro o de una medición manual más precisa.
 
 ## ¿Qué características se enriquecen de forma automática?
@@ -56,7 +58,7 @@ Con la superficie exclusivamente de la Vivienda, realizamos una estimación del 
   * De 65 a 95 m² → 2 habitaciones
   * De 95 a 130 m² → 3 habitaciones
   * A partir de 130 m² → 4 habitaciones
-
+  
 **Ascensor**
 
 Estimamos de forma automática si una vivienda plurifamiliar tiene ascensor si el edificio se ha construido posteriormente al año 1974 y cuenta con más de 4 alturas.
@@ -67,37 +69,10 @@ Con los elementos constructivos tanto del inmueble como de la finca catastral, p
 
 **Tipología**
 
-En los inmuebles de uso catastral “Almacén -Estacionamiento”, podemos discernir con los elementos constructivos si se trata de un Garaje o Trastero.
+*TBD*
 
 **Calidad Inmueble**
 
 Catastro cuenta con un parámetro de calidad del inmueble que nos ayuda a estimar un valor inicial de la calidad constructiva:
 
-![Untitled](/images/AutoEnrichment/Untitled.png)
-
-## ¿Se priorizan los datos de Catastro frente a los que introduzco manualmente?
-
-En general, ante una discrepancia entre los datos introducidos por el usuario y Catastro, prevalecerán los datos catastrales del inmueble ante los datos introducidos manualmente para evitar posibles errores, ya que normalmente los datos catastrales suelen ser fidedignos.
-
-En la valoración manual del activo, el usuario puede manualmente editar cualquier dato sin que la plataforma realice ninguna comprobación y que prevalezca el dato del usuario.
-
-## ¿Por qué son necesarias las subagrupaciones?
-
-Para poder valorar de forma masiva todos los activos de la agrupación, es necesario establecer correctamente unas subagrupaciones de cara a estructurar los activos por tipología u otro parámetro y que las valoraciones masivas se extrapolen al conjunto de activos deseado.
-
-**De forma automática**
-
-Estas subagrupaciones pueden crearse automáticamente al subir la cartera a la plataforma si el usuario selecciona la opción de Finca Catastral:
-
-![Untitled](/images/NeedToGroup/Untitled.png)
-
-Y por defecto se formarían:
-
-* En las Viviendas, se diferenciaría por número de habitaciones: “2 habs., 3 habs., etc…”
-* En las demás tipologías, se diferenciaría por tipología: “Garajes, Trasteros, Comercios, etc…”
-
-**De forma manual**
-
-En la tabla de Activos de la agrupación, en modo edición, están disponibles opciones para crear subagrupación, añadir a una subagrupación existente y eliminar subagrupación.
-
-![Untitled](/images/NeedToGroup/Untitled%201.png)
+![Untitled](/images/AssetView/Asset_Analisis.png)

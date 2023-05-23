@@ -3,7 +3,7 @@ title: Tareas
 ---
 ## Tareas y notificaciones
 
-> ℹ️ El interfaz visual de las tareas y notificaciones es temporal y cambiará en siguientes versiones para acomodarse al aspecto global de la aplicación.
+> El interfaz visual de las tareas y notificaciones es temporal y cambiará en siguientes versiones para acomodarse al aspecto global de la aplicación. **Actualmente solo aplica a Saneamiento.**
 
 RESIDELIA Asset Management permite la definición flujos de tareas que se pueden enlazar al ciclo de vida de la gestión de un activo.
 
@@ -15,13 +15,13 @@ La pestaña de TAREAS muestra la información de las tareas que se han lanzado y
 
 ## Tareas
 
-![Captura de Pantalla 2022-07-20 a las 13.28.30.png](/images/Management/Captura_de_Pantalla_2022-07-20_a_las_13.28.30.png)
+![Captura de Pantalla 2022-07-20 a las 13.28.30.png](/images/AssetView/Management/Captura_de_Pantalla_2022-07-20_a_las_13.28.30.png)
 
 En la sección de tareas se muestran las tareas asociadas al activo, tanto las que están por completar como las completadas.
 
 Las tareas, se crean automáticamente en función del estado de saneamiento en el que se encuentra el activo, aunque también pueden crearse manualmente y siempre están asociadas a un activo concreto.
 
-![Untitled](/images/Management/Untitled.png)
+![Untitled](/images/AssetView/Management/Untitled.png)
 
 La información que muestra cada tarea es la siguiente:
 
@@ -46,7 +46,7 @@ Contiene toda la información relacionada con la descripción propia de la tarea
 
 En la página principal de la información del activo se muestran las notificaciones referentes al propio activo:
 
-![Captura de Pantalla 2022-05-30 a las 11.33.00.png](/images/Management/Captura_de_Pantalla_2022-05-30_a_las_11.33.00.png)
+![Captura de Pantalla 2022-05-30 a las 11.33.00.png](/images/AssetView/Management/Captura_de_Pantalla_2022-05-30_a_las_11.33.00.png)
 
 Dichas notificaciones son configurable y se puede definir bajo qué condiciones de información de una activo lanzarlas. Esta configuración es necesario realizarla con el equipo de RESIDELIA para ajustarla a la necesidad concreta de cada cliente.
 
@@ -66,7 +66,7 @@ Las notificaciones se asignan por defecto al responsable del activo y se muestra
 
 Las notificaciones poseen un tipo definido y son configurables, tanto el tipo de notificación como cuándo han de lanzarse.
 
-![Untitled](/images/Management/Untitled%201.png)
+![Untitled](/images/AssetView/Management/Untitled%201.png)
 
 ## Tareas y notificaciones del usuario
 
@@ -74,9 +74,9 @@ Las notificaciones poseen un tipo definido y son configurables, tanto el tipo de
 
 En el menú de la barra lateral, seleccionamos **TAREAS** para mostrar todas las tareas de todos los activos en las que el usuario actual bien está asignado, bien es candidato para la asignación.
 
-![Captura de Pantalla 2022-07-21 a las 8.42.50.png](/images/Management/Captura_de_Pantalla_2022-07-21_a_las_8.42.50.png)
+![Captura de Pantalla 2022-07-21 a las 8.42.50.png](/images/AssetView/Management/Captura_de_Pantalla_2022-07-21_a_las_8.42.50.png)
 
-![am-user-tasks.png](/images/Management/am-user-tasks.png)
+![am-user-tasks.png](/images/AssetView/Management/am-user-tasks.png)
 
 > 💡 Tareas en las que se es candidato pero finalmente no se asigna desaparecen de la vista del usuario actual.
 
@@ -86,4 +86,4 @@ A partir de ésta vista, el usuario empezará a trabajar en el trabajo que requi
 
 En el menú de la barra lateral, seleccionamos NOTIFICACIONES para visualizar todas las notificaciones que afectan a todos los activos.
 
-![screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png](/images/Management/screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png)
+![screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png](/images/AssetView/Management/screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png)

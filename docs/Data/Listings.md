@@ -1,13 +1,13 @@
 ---
-title: Portales Inmobiliarios
+title: Oferta
 ---
-## Portales Inmobiliarios (Oferta)
+# Oferta
 
-> ℹ️ La plataforma extrae la información de **Oferta** de los principales portales inmobiliarios *(Idealista, Fotocasa y pisos.com)* con una **actualización diaria** de las siguientes tipologías: Viviendas, Garajes, Trasteros, Comercial, Industrial y Oficinas.
+La plataforma extrae la información de **Oferta** de los principales portales inmobiliarios *(Idealista, Fotocasa y pisos.com)* con una **actualización diaria** de las siguientes tipologías: Viviendas, Garajes, Trasteros, Comercial, Industrial y Oficinas.
 
-La plataforma almacena el gran volumen de registros (~20M) con todo el histórico de anuncios de los últimos años y el histórico de cambios (por ej. de precio) que ha sufrido un anuncio antes de retirarse del mercado. Por lo que, desde la plataforma, aunque el anuncio esté retirado del mercado, es posible acceder a todo el detalle de la información.
+Se almacena un gran volumen de registros (~20M) con todo el histórico de anuncios de los últimos años y el histórico de cambios (por ej. de precio) que ha sufrido un anuncio antes de retirarse del mercado. Por lo que, desde la plataforma, aunque el anuncio esté retirado del mercado, es posible acceder a todo el detalle de la información.
 
-Para aportar la máxima transparencia, en el detalle de cualquier anuncio, se aporta la información del anunciante y el link al anuncio original del portal.
+Para aportar la máxima transparencia, en el detalle de cualquier anuncio, se detalla la información del anunciante y el link al anuncio original del portal.
 
 Así mismo, con el objetivo de que la información de mercado esté lo menos distorsionada posible, se realiza un procesamiento de estos datos para tratar de eliminar anuncios erróneos e identificar anuncios duplicados entre los distintos portales.
 
@@ -22,5 +22,3 @@ Con el fin de aportar la máxima transparencia a la oferta inmobiliaria, nuestro
 Actualmente, estamos utilizando un algoritmo que a través de la localización y características de los inmuebles, es capaz de identificar en un gran porcentaje los anuncios duplicados, en el mismo portal o entre distintos portales, aglutinando todos estos anuncios en un registro único y pudiendo visualizar en el detalle del anuncio, la lista de comercializadores y el link a los portales.
 
 Para no tener falsos positivos en esta detección, el algoritmo está diseñado de una manera flexible para que aunque tengamos casos de duplicados sin identificar, exista el menor porcentaje posible de falsos positivos.
-
-En nuestro *Roadmap* está la mejora de esta detección para alcanzar el mayor grado de precisión posible utilizando técnicas de *Machine Learning* y reconocimento automático de imágenes.

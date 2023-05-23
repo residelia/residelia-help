@@ -1,22 +1,30 @@
 ---
-title: Introducción
+title: Activos
 ---
-# Introducción
+# Activos
 
-## [Listado](/Assets/Listado)
-
-> ℹ️ Es posible mostrar u ocultar columnas del listado de activos. En la parte derecha, en la cabecera de las columnas, pulsar en el icono: **|||**
+Al acceder al detalle de una cartera, o a todos los Activos, estará disponible el listado de activos junto con sus principales datos relevante y principales estadísticas.
 
 En el listado de activos de una cartera, es posible realizar las siguientes acciones:
 
-- Vista Grupos *(Más Info en 🏢 Grupos)*
-- Vista Mapa
+> Es posible mostrar u ocultar columnas del listado de activos. En la parte derecha, en la cabecera de las columnas, pulsar en el icono: **|||**
+
+![Untitled](/images/Assets/Main.png)
+ 
+- Vista Grupos → [Más info](/Assets/Groups.html#vista-grupos)
+
+- Vista Mapa → [Más info](/Assets/Map.html)
+
 - Editar → Realizar acciones sobre el listado como formar grupos, archivar, etc…
-- Exportar Excel → Exportación de todos los datos de todos los activos de la cartera
-- Crear activo
-- Individual → Creación de un activo nuevo a la cartera a través del formulario
-- Masivo → Creación de activos de forma masiva a través del DT *(Más Info en 🏪 Carteras)*
 
-![Untitled](/images/Assets/Untitled.png)
+- Exportar Excel → Exportación de información de todos los activos de la cartera
 
-![Untitled](/images/Assets/Untitled%201.png)
+- Crear activo → [Más info](/Assets/CreateAsset.html)
+
+
+
+## Fase de los activos
+
+Es posible distinguir si el activo está en fase de Análisis o Gestión. Principalmente es una etiqueta para poder abordar la distinta funcionalidad dependiendo en qué fase esté el activo, pero en general se trata de la misma entidad y no habrá mayores diferencias si está en una fase u otra.
+
+Por ejemplo, para acceder a la funcionalidad de Saneamiento, es necesario que el activo esté en fase de Gestión.

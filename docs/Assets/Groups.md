@@ -9,26 +9,28 @@ Los grupos de activos pueden formarse tanto de forma automática como de forma m
 
 1. Al crear la cartera de activos, en el último paso del formulario de creación, existe una opción para seleccionar la agrupación por defecto:
     
-    ![Untitled](/images/Groups/Untitled.png)
+    ![Untitled](/images/Groups/Default_Group.png)
     
 2. En el listado de activos, con la opción de Editar el listado, se pueden formar manualmente grupos o añadir activos a grupos existentes:
     
-    ![Untitled](/images/Groups/Untitled%201.png)
+    ![Untitled](/images/Groups/Edition_Groups.png)
+
 ## **Vista Grupos**
 
 En el listado de activos, existe la opción de visualizar el listado de grupos:
 
-![Untitled](/images/Groups/Untitled%202.png)
+![Untitled](/images/Groups/List_Groups_Button.png)
 
-![Untitled](/images/Groups/Untitled%203.png)
+![Untitled](/images/Groups/List_Groups.png)
+
 
 O bien desde el listado de activos, se muestra una columna para saber a qué agrupación pertenece el activo:
 
-![Captura de Pantalla 2022-09-14 a las 10.04.55.png](/images/Groups/Captura_de_Pantalla_2022-09-14_a_las_10.04.55.png)
+![Untitled](/images/Groups/Assets_List.png)
 
 Y seleccionando un grupo en particular, podemos ver los activos pertenecientes a esta agrupación:
 
-![Untitled](/images/Groups/Untitled%204.png)
+![Untitled](/images/Groups/Group_View_Generic.png)
 
 Si todos los activos del grupo pertenecen a la misma Finca Catastral, la vista del grupo cambiará para ser lo más similar posible a un activo unitario y poder valorar de forma masiva:
 
@@ -42,11 +44,11 @@ La edición individual de un activo que pertenece a una de estas agrupaciones es
 
 ### **Info**
 
-![Untitled](/images/CadastralGroup/Untitled.png)
+![Untitled](/images/Groups/Group_View_Cadastral.png)
 
 ### **Activos**
 
-![Untitled](/images/CadastralGroup/Untitled%201.png)
+![Untitled](/images/Groups/Edition_Subgroups.png)
 
 ### **Valoración**
 
@@ -56,45 +58,26 @@ En la sección de Valoración, aparecen las subagrupaciones creadas donde podrem
 
 Esta edición se extrapolará automáticamente a todos los activos pertenecientes a la subagrupación modificada y el valor unitario se multiplicará por la superficie de cada activo.
 
-![Captura de Pantalla 2022-09-14 a las 16.18.08.png](/images/CadastralGroup/Captura_de_Pantalla_2022-09-14_a_las_16.18.08.png)
+![Untitled](/images/Groups/Valuation_Subgroups.png)
 
-## ¿Qué características se enriquecen de forma automática?
 
-Con la información disponible de Catastro, la plataforma puede interpretar ciertas características como primera estimación de forma automática.
+### ¿Por qué son necesarias las subagrupaciones?
 
-Toda esta información automática se puede editar manualmente a posteriori para que los datos del inmueble sean lo más precisos posible.
+Para poder valorar de forma masiva todos los activos de la agrupación, es necesario establecer correctamente unas subagrupaciones de cara a estructurar los activos por tipología u otro parámetro y que las valoraciones masivas se extrapolen al conjunto de activos deseado.
 
-**Habitaciones**
+**De forma automática**
 
-Con la superficie exclusivamente de la Vivienda, realizamos una estimación del número de habitaciones.
+Estas subagrupaciones pueden crearse automáticamente al subir la cartera a la plataforma si el usuario selecciona la opción de Finca Catastral:
 
-- Para edificaciones anteriores al año 2000:
-    - Hasta 30 m² → Estudio
-    - De 30 a 50 m² → 1 habitación
-    - De 50 a 80 m² → 2 habitaciones
-    - De 80 a 100 m² → 3 habitaciones
-    - A partir 100 m² → 4 habitaciones
-- Para edificaciones posteriores al año 2000:
-    - Hasta 40 m² → Estudio
-    - De 40 a 65 m² → 1 habitación
-    - De 65 a 95 m² → 2 habitaciones
-    - De 95 a 130 m² → 3 habitaciones
-    - A partir de 130 m² → 4 habitaciones
+![Untitled](/images/Groups/Default_Group.png)
 
-**Ascensor**
+Y por defecto se formarían:
 
-Estimamos de forma automática si una vivienda plurifamiliar tiene ascensor si el edificio se ha construido posteriormente al año 1974 y cuenta con más de 4 alturas.
+* En las Viviendas, se diferenciaría por número de habitaciones: “2 habs., 3 habs., etc…”
+* En las demás tipologías, se diferenciaría por tipología: “Garajes, Trasteros, Comercios, etc…”
 
-**Otros Anejos**
+**De forma manual**
 
-Con los elementos constructivos tanto del inmueble como de la finca catastral, podemos estimar si la vivienda tiene los anejos de: Garaje, Trastero, Terraza, Jardín, Piscina e Instalaciones Deportivas.
+En la tabla de Activos de la agrupación, en modo edición, están disponibles opciones para crear subagrupación, añadir a una subagrupación existente y eliminar subagrupación.
 
-**Tipología**
-
-En los inmuebles de uso catastral “Almacén -Estacionamiento”, podemos discernir con los elementos constructivos si se trata de un Garaje o Trastero.
-
-**Calidad Inmueble**
-
-Catastro cuenta con un parámetro de calidad del inmueble que nos ayuda a estimar un valor inicial de la calidad constructiva:
-
-![Untitled](/images/Assets/caracteristicasautom.png)
+![Untitled](/images/Groups/Edition_Subgroups.png)

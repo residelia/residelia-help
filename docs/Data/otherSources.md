@@ -2,7 +2,7 @@
 title: Otras fuentes
 ---
 
-# Otras Fuentes
+# Otras fuentes
 
 **Google Street View**
 
@@ -10,19 +10,17 @@ Información visual para poder navegar por la zona del activo. Así mismo, posib
 
 **Capas de Mapas**
 
-Delimitaciones:
+- Delimitaciones
+  - Municipios
+  - Códigos Postales
+  - Secciones Censales
+  - Catastro
 
-- Municipios
-- Códigos Postales
-- Secciones Censales
-- Catastro
-
-Información:
-
-- Ingresos
-- Distribución Ingresos
-- Distribución Población
-- Espacios Protegidos
-- Espacios Naturales
-- Riesgo Volcánico
-- Zonas Inundables
+-  Información
+   - Ingresos
+   - Distribución Ingresos
+   - Distribución Población
+   - Espacios Protegidos
+   - Espacios Naturales
+   - Riesgo Volcánico
+   - Zonas Inundables
