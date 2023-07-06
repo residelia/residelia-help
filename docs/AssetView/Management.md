@@ -11,10 +11,11 @@ El proceso de Saneamiento Jurídico posesorio implica una serie de acciones que 
 
 En paralelo (no en todos los casos) se realizan las siguientes acciones:
 
-- Inscripción registral para la toma de posesión de la propiedad
-- Toma de posesión del activo físico. Para ello es necesario:
-  - Conocer el estado ocupacional
-  - En el caso de estar ocupado, habitualmente, iniciar en paralelo un procedimiento legal de desahucio un una mediación extrajudicial amistosa.
+* Inscripción registral para la toma de posesión de la propiedad
+* Toma de posesión del activo físico. Para ello es necesario:
+
+  * Conocer el estado ocupacional
+  * En el caso de estar ocupado, habitualmente, iniciar en paralelo un procedimiento legal de desahucio un una mediación extrajudicial amistosa.
 
 El fin del proceso de saneamiento se tiene una vez el activo está inscrito en el registro de la propiedad con la nueva titularidad y se tiene posesión física del activo.
 
@@ -22,10 +23,12 @@ El fin del proceso de saneamiento se tiene una vez el activo está inscrito en e
 
 Los tipos de adquisición de un activo son los siguientes:
 
-- Adjudicación Judicial como resultado de una ejecución hipotecaria.
-- Dación en pago mediante acuerdo con el deudor.
-- Compraventa de un REO o activo que ya no es un colateral de una deuda.
-- Otros casos
+* Adjudicación Judicial como resultado de una ejecución hipotecaria.
+* Dación en pago mediante acuerdo con el deudor.
+* Compraventa de un REO o activo que ya no es un colateral de una deuda.
+* C﻿SA
+* P﻿OA
+* Otros casos
 
 En función del tipo, el workflow de saneamiento pintado arriba varía ligeramente.
 
@@ -33,13 +36,13 @@ En función del tipo, el workflow de saneamiento pintado arriba varía ligeramen
 
 La sección presenta la siguiente información:
 
-- **Información General de Estado** → Recoge la información del tipo de adquisición, el estado de INSCRIPCIÓN, POSESIÓN y OCUPACIÓN en formato visual semafórico y el responsable del activo asignado.
-- Pestañas de saneamiento **Jurídico** y **Físico**. Actualmente, el saneamiento Físico está deshabilitado.
-- **Posesión** → Recoge la información sobre la posesión del activo y su estado actual de ocupación
-- **Inscripción registral** → Recoge el estado actual del estado de la inscripción registral.
-- **Información Ocupacional** → Estado del último informe de ocupación solicitado sobre el activo.
-- **Estado mediación extrajudicial** → Información actual del último proceso de mediación llevado a cabo.
-- **Procedimiento de desahucio** → En caso de que exista un procedimiento en marcha, se muestra la información actual del mismo.
+* **Información General de Estado** → Recoge la información del tipo de adquisición, el estado de INSCRIPCIÓN, POSESIÓN y OCUPACIÓN en formato visual semafórico y el responsable del activo asignado.
+* Pestañas de saneamiento **Jurídico** y **Físico**. Actualmente, el saneamiento Físico está deshabilitado.
+* **Posesión** → Recoge la información sobre la posesión del activo y su estado actual de ocupación
+* **Inscripción registral** → Recoge el estado actual del estado de la inscripción registral.
+* **Información Ocupacional** → Estado del último informe de ocupación solicitado sobre el activo.
+* **Estado mediación extrajudicial** → Información actual del último proceso de mediación llevado a cabo.
+* **Procedimiento de desahucio** → En caso de que exista un procedimiento en marcha, se muestra la información actual del mismo.
 
 ## Inscripciones Registrales
 
@@ -63,8 +66,8 @@ Ademas, el marcador azul indica el número de informes realizados sobre el activ
 
 ![Captura de pantalla 2023-01-12 a las 11.23.43.png](/images/AssetView/Management/Captura_de_pantalla_2023-01-12_a_las_11.23.43.png)
 
-- Lista de informes solicitado → se enumera en formato de tabla los informes de ocupación realizados sobre el activo.
-- Detalle del informe seleccionado → se muestra en la parte inferior el detalle del informe seleccionado en la lista arriba.
+* Lista de informes solicitado → se enumera en formato de tabla los informes de ocupación realizados sobre el activo.
+* Detalle del informe seleccionado → se muestra en la parte inferior el detalle del informe seleccionado en la lista arriba.
 
 Para saber si un informe se ha realizado de manera interna o se ha externalizado, pulsar en
 
@@ -74,13 +77,13 @@ Mostrándose la información del servicio encargado para la realización del inf
 
 > En siguientes versiones, el interfaz que muestra la información cambiará para homogeneizarse con el resto de la aplicación.
 
-![Captura de pantalla 2023-01-12 a las 11.56.26.png](/images/AssetView/Management/Captura_de_pantalla_2023-01-12_a_las_11.56.26.png)
+![peticion-servicio-asociada-estado](/images/uploads/captura-de-pantalla-2023-07-06-a-las-12.50.17.png)
 
 ## Mediaciones Extrajudiciales
 
 De la misma forma que los informes de ocupación, el acceso a la información de detalle se realiza con los mismos pasos.
 
-![Captura de pantalla 2023-01-12 a las 12.22.43.png](/images/AssetView/Management/Captura_de_pantalla_2023-01-12_a_las_12.22.43.png)
+![detalle-procedimiento-mediacion](/images/AssetView/Management/Captura_de_pantalla_2023-01-12_a_las_12.22.43.png)
 
 Donde se pueden crear más procesos y ver la información de detalle de cada mediación así como la información de la propuesta una vez aceptada la negociación (hasta que no se ha aceptado no se muestra la información de propuesta de desalojo).
 
@@ -100,27 +103,21 @@ Cuando se proceda con la creación de un informe nuevo ya sea de ocupación, enc
 
 Se mostrará un menú para seleccionar si el informe se realizará internamente o externamente a través de un interviniente. Si la selección es interna, el informe se creará y será visible a través del desplegable correspondiente al tipo de informe creándose una entrada más en la lista. Si el informe se realizara externamente, se mostrará la ventana de nueva petición de servicio.
 
-> El interfaz correspondiente a esta acción cambiará en siguientes versiones para homogeneizarlo al resto de la aplicación y simplificar la petición
-
-![Captura de pantalla 2023-01-12 a las 12.10.41.png](/images/AssetView/Management/Captura_de_pantalla_2023-01-12_a_las_12.10.41.png)
+![Captura de pantalla 2023-01-12 a las 12.10.41.png](/images/uploads/captura-de-pantalla-2023-07-06-a-las-12.55.05.png)
 
 Para la solicitud de un nuevo servicio es necesario introducir:
 
-- El tipo de servicio: Informes de Ocupación, Mediaciones extrajudiciales, etc en función del número de servicios definidos en la plataforma.
-- El activo sobre el que se desea realizar el informe.
-- Pestaña de Descripción
-- Se tiene la información de asignación al proveedor
-- Fechas
-- Estado de la evolución del servicio
-- Pestaña de Informes donde se muestra el(los) informes que genera la petición de servicio y que el interviniente cumplimenta.
+* El tipo de servicio: Informes de Ocupación, Mediaciones extrajudiciales, etc en función del número de servicios definidos en la plataforma.
+* El activo sobre el que se desea realizar el informe ya aparece seleccionado
+* Selección del proveedor que realizará el servicio
+* Fechas
+* C﻿omentarios adicionales al servicio que se desea trasladar al proveedor.
 
 ## Tareas y notificaciones
 
-> El interfaz visual de las tareas y notificaciones es temporal y cambiará en siguientes versiones para acomodarse al aspecto global de la aplicación.
-
 RESIDELIA Asset Management permite la definición flujos de tareas que se pueden enlazar al ciclo de vida de la gestión de un activo.
 
-Estos procesos son configurables y se pueden definir en función de parámetros cambiantes o tareas finalizadas. Las siguientes tareas en el workflow definido se lanzan automáticamente cuando un parámetro toma un determinado valor o bien cuando la tarea anterior se da por finalizada.
+Estos procesos son configurables y se pueden definir en función de parámetros cambiantes o tareas finalizadas. Las siguientes tareas en el workflow definido se lanzan automáticamente cuando un parámetro toma un determinado valor o bien cuando la tarea anterior se da por finalizada. La asignacin de las tareas puede automatizarse configurando las preferencias de la compaña. Estas asignaciones pueden hacerse con carcter general por departamento, o por activo a nivel de portfolio.
 
 La definición de un workflow específico debe ser realizada por el equipo de RESIDELIA, así como la definición de nuevos tipos de tarea que se puedan generar manualmente.
 
@@ -128,30 +125,38 @@ La pestaña de TAREAS muestra la información de las tareas que se han lanzado y
 
 ### Tareas
 
-![Captura de Pantalla 2022-07-20 a las 13.28.30.png](/images/AssetView/Management/Captura_de_Pantalla_2022-07-20_a_las_13.28.30.png)
+![vista-general-tareas-activo](/images/uploads/captura-de-pantalla-2023-07-06-a-las-12.59.13.png)
 
 En la sección de tareas se muestran las tareas asociadas al activo, tanto las que están por completar como las completadas.
 
-Las tareas, se crean automáticamente en función del estado de saneamiento en el que se encuentra el activo, aunque también pueden crearse manualmente y siempre están asociadas a un activo concreto.
+Las tareas, se crean automáticamente en función del estado del workflow en el que se encuentra el activo, aunque también pueden crearse manualmente y siempre están asociadas a un activo concreto.
 
-![Untitled](/images/AssetView/Management/Untitled.png)
+![Untitled](/images/uploads/captura-de-pantalla-2023-07-06-a-las-13.02.08.png)
 
 La información que muestra cada tarea es la siguiente:
 
-- Definición de Tarea → se trata del tipo de tarea y que define qué acción hay que realizar a continuación sobre el activo.
-- Parámetros Generales → se dividen por pestañas: DESCRIPCIÓN, ACTUACIONES y ARCHIVOS.
+* Tipo de Tarea → se trata del tipo de tarea y que define qué acción hay que realizar a continuación sobre el activo.
+* Parámetros Generales → se dividen por pestañas: DESCRIPCIÓN, ACTUACIONES y ARCHIVOS.
 
 ### Descripción
 
 Contiene toda la información relacionada con la descripción propia de la tarea:
 
-- **Usuarios candidatos a ejecutar la tarea** → lista de nombres (username) de los usuarios disponibles y con permisos para ejecutar la tarea
-- **Fecha límite de ejecución de la tarea** → en función del tipo de tarea, se definen límites en la ejecución
-- **Fecha de asignación de la tarea** → fecha en la que e asigna la tarea a un usuario.
-- **Fecha de finalización** → fecha en la que la tarea se pasa a FINALIZADA
-- **Usuario asignado** → Si como usuario, quiero asumir dicha tarea, con pasarla al estado ‘En progreso’ automáticamente se me asignaría al usuario actual.
-- **Activo** → activo relacionado con la tarea. Cada tarea estará relacionada a un único activo.
-- **Estado de la tarea** → Los estados de una tarea son: ‘Pendiente de asignación’, ‘En progreso’, ‘Finalizada’. Cuando una tarea se pasa a finalizada, automáticamente se genera(n) la(s) tarea(s) que sigue en el flujo de trabajo.
+* **D﻿escripcin** →La descripcin es editable individualmente.
+* **Estado de la tarea** → Los estados de una tarea son: ‘Pendiente de asignación’, ‘En progreso’, ‘Finalizada’. Cuando una tarea se pasa a finalizada, automáticamente se genera(n) la(s) tarea(s) que sigue en el flujo de trabajo.
+* **Activo** → activo relacionado con la tarea. Cada tarea estará relacionada a un único activo.
+* **Fecha límite de ejecución de la tarea** → en función del tipo de tarea, se definen límites en la ejecución
+* **Fecha de asignación de la tarea** → fecha en la que e asigna la tarea a un usuario.
+* **Fecha de finalización** → fecha en la que la tarea se pasa a FINALIZADA
+* **Departamento asignado para la ejecución de la tarea** → nombre del departamento responsable de la tarea. Disponible si se ha realizado una configuración previa para la empresa
+* **Usuario asignado** → Usuario del departamento responsable encargado de la tarea.
+
+> 💡Si no existe una configuración de empresa para la asginación de tareas, los candidatos para ejecutar se establecen como todos los usuarios de la empresa.
+
+L﻿as asignaciones pueden realizarse a varios niveles:
+
+* N﻿ivel de empresa y departamento → existe una configuración de departamentos y usuarios y se definen qué tareas deben ejecutarse por cuáles departamentos.
+* N﻿ivel de activo y portfolio → a﻿demás de la configuración por empresa, se pueden asignar tareas por activo a usuarios concretos de manera que todas las tareas de un tipo concreto pueden preasignarse a un usuario específico del departamento.
 
 > 💡 Cuando una tarea está asignada a un usuario, sólo se muestra a dicho usuario. Cuando una  tarea no se encuentra asignada, dicha tarea se muestra a todos los usuarios que son candidatos a ejecutar la tarea para informar que existe una tarea por hacer.
 
@@ -159,21 +164,23 @@ Contiene toda la información relacionada con la descripción propia de la tarea
 
 En la página principal de la información del activo se muestran las notificaciones referentes al propio activo:
 
-![Captura de Pantalla 2022-05-30 a las 11.33.00.png](/images/AssetView/Management/Captura_de_Pantalla_2022-05-30_a_las_11.33.00.png)
+![Captura de Pantalla 2022-05-30 a las 11.33.00.png](/images/uploads/captura-de-pantalla-2023-07-06-a-las-13.25.58.png)
 
 Dichas notificaciones son configurable y se puede definir bajo qué condiciones de información de una activo lanzarlas. Esta configuración es necesario realizarla con el equipo de RESIDELIA para ajustarla a la necesidad concreta de cada cliente.
 
 Las notificaciones tienen dos estados:
 
-- PENDIENTE → La notificación se ha lanzado pero aún no ha sido procesada por ningún usuario
-- PROCESADA → La notificación ha sido procesada por un usuario.
+* PENDIENTE → La notificación se ha lanzado pero aún no ha sido procesada por ningún usuario
+* PROCESADA → La notificación ha sido procesada por un usuario. Las notificaciones se procesan automáticamente cuando se seleccionan para ver el detalle.
+
+![]()
 
 Además del estado las notificaciones contienen la siguiente información:
 
-- Fecha de lanzamiento de la notificación → Fecha y hora en la que se genera la notificación
-- Fecha de expiración → Las notificaciones se definen en base a un tipo de notificación y conlleva un límite máximo para el procesamiento (configuración con el equipo de RESIDELIA)
-- Fecha de procesamiento → Fecha de asignación automática cuando el estado de una notificación se pasa PROCESADA manualmente por un usuario.
-- **Activo y Tipo de notificación son dos parámetros que no se deben modificar puesto que son automáticos.**
+* Fecha de lanzamiento de la notificación → Fecha y hora en la que se genera la notificación
+* Fecha de expiración → Las notificaciones se definen en base a un tipo de notificación y conlleva un límite máximo para el procesamiento (configuración con el equipo de RESIDELIA)
+* Fecha de procesamiento → Fecha de asignación automática cuando el estado de una notificación se pasa PROCESADA manualmente por un usuario.
+* **Activo y Tipo de notificación son dos parámetros que no se deben modificar puesto que son automáticos.**
 
 Las notificaciones se asignan por defecto al responsable del activo y se muestran únicamente al mismo. Si un activo no tuviera asignado un responsable y se lanzase alguna notificación, ésta la verían todos los usuarios.
 
@@ -219,5 +226,5 @@ Durante el proceso de saneamiento ya sea jurídico o físico, incluso en fase de
 
 Esto lanzará una tarea interna de:
 
-- Selección de Agencia de IO que, en este caso, al haber obtenido información por otros medios, no sería necesario externalizar.
-- Crearíamos un nuevo informe de ocupación con resultado ocupado que nos generaría una nueva tarea de Asignación de Agencia de Mediación, permitiéndonos de esta forma relanzar el proceso de toma de posesión física del activo.
+* Selección de Agencia de IO que, en este caso, al haber obtenido información por otros medios, no sería necesario externalizar.
+* Crearíamos un nuevo informe de ocupación con resultado ocupado que nos generaría una nueva tarea de Asignación de Agencia de Mediación, permitiéndonos de esta forma relanzar el proceso de toma de posesión física del activo.
