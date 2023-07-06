@@ -173,16 +173,18 @@ Las notificaciones tienen dos estados:
 * PENDIENTE → La notificación se ha lanzado pero aún no ha sido procesada por ningún usuario
 * PROCESADA → La notificación ha sido procesada por un usuario. Las notificaciones se procesan automáticamente cuando se seleccionan para ver el detalle.
 
-![]()
+![Captura de pantalla 2023-07-06 a las 14.19.16.png](images/uploads/Captura de pantalla 2023-07-06 a las 14.19.16.png)
 
 Además del estado las notificaciones contienen la siguiente información:
 
 * Fecha de lanzamiento de la notificación → Fecha y hora en la que se genera la notificación
-* Fecha de expiración → Las notificaciones se definen en base a un tipo de notificación y conlleva un límite máximo para el procesamiento (configuración con el equipo de RESIDELIA)
+* Activo al que afecta la notificación
+* Usuario que ha procesado la notificación
 * Fecha de procesamiento → Fecha de asignación automática cuando el estado de una notificación se pasa PROCESADA manualmente por un usuario.
-* **Activo y Tipo de notificación son dos parámetros que no se deben modificar puesto que son automáticos.**
 
-Las notificaciones se asignan por defecto al responsable del activo y se muestran únicamente al mismo. Si un activo no tuviera asignado un responsable y se lanzase alguna notificación, ésta la verían todos los usuarios.
+**Activo y Tipo de notificación son dos parámetros que no se deben modificar puesto que son automáticos.
+
+Las notificaciones se asignan por defecto al departamento afectado por lo que pueden ser vistas por todos los integrantes de dicho departamento.
 
 Las notificaciones poseen un tipo definido y son configurables, tanto el tipo de notificación como cuándo han de lanzarse.
 
