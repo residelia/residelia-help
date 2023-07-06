@@ -56,6 +56,11 @@ Se desplegará la información de detalle sobre el proceso de inscripción:
 
 En el desplegable se muestra la información actualizada del estado último de la inscripción y de las cargas en caso de tenerlas. Además, existe un campo que permite anotaciones que pueden ser introducidas tanto por los gestores internos como por los intervinientes externos a cargo de la inscripción.
 
+## Procedimientos de Adjudicación
+En el caso de que un activo se aquiera por Adjudicación Judicial, se mostrará información específica sobre el proceso legal de adjudicación. En la pantalla general de saneamiento se muestran los parámetros más importantes del proceso y, si se desea más detalle, basta con pulsar en el icono correspondiente para desplegar el panel de detalle.
+
+![detalle-proc-adjudicacion](/images/AssetView/Management/detalle-proc-adjudicacion.png)
+
 ## Informes Ocupación
 
 Para el acceso a la información de detalle, es necesario pulsar:
@@ -75,9 +80,7 @@ Para saber si un informe se ha realizado de manera interna o se ha externalizado
 
 Mostrándose la información del servicio encargado para la realización del informe. *(Ver Peticiones de Servicio abajo)*
 
-> En siguientes versiones, el interfaz que muestra la información cambiará para homogeneizarse con el resto de la aplicación.
-
-![peticion-servicio-asociada-estado](/images/uploads/captura-de-pantalla-2023-07-06-a-las-12.50.17.png)
+![peticion-servicio-asociada](/images/AssetView/Management/peticion-servicio-asociada.png)
 
 ## Mediaciones Extrajudiciales
 
@@ -103,7 +106,7 @@ Cuando se proceda con la creación de un informe nuevo ya sea de ocupación, enc
 
 Se mostrará un menú para seleccionar si el informe se realizará internamente o externamente a través de un interviniente. Si la selección es interna, el informe se creará y será visible a través del desplegable correspondiente al tipo de informe creándose una entrada más en la lista. Si el informe se realizara externamente, se mostrará la ventana de nueva petición de servicio.
 
-![Captura de pantalla 2023-01-12 a las 12.10.41.png](/images/uploads/captura-de-pantalla-2023-07-06-a-las-12.55.05.png)
+![solicitud-nuevo-servicio](/images/AssetView/Management/solicitud-nuevo-servicio.png)
 
 Para la solicitud de un nuevo servicio es necesario introducir:
 
@@ -125,13 +128,13 @@ La pestaña de TAREAS muestra la información de las tareas que se han lanzado y
 
 ### Tareas
 
-![vista-general-tareas-activo](/images/uploads/captura-de-pantalla-2023-07-06-a-las-12.59.13.png)
+![vista-general-tareas-activo](/images/AssetView/Management/captura-de-pantalla-2023-07-06-a-las-12.59.13.png)
 
 En la sección de tareas se muestran las tareas asociadas al activo, tanto las que están por completar como las completadas.
 
 Las tareas, se crean automáticamente en función del estado del workflow en el que se encuentra el activo, aunque también pueden crearse manualmente y siempre están asociadas a un activo concreto.
 
-![Untitled](/images/uploads/captura-de-pantalla-2023-07-06-a-las-13.02.08.png)
+![Untitled](/images/AssetView/Management/captura-de-pantalla-2023-07-06-a-las-13.02.08.png)
 
 La información que muestra cada tarea es la siguiente:
 
@@ -142,7 +145,7 @@ La información que muestra cada tarea es la siguiente:
 
 Contiene toda la información relacionada con la descripción propia de la tarea:
 
-* **D﻿escripcin** →La descripcin es editable individualmente.
+* **Descripción** → La descripción es editable individualmente.
 * **Estado de la tarea** → Los estados de una tarea son: ‘Pendiente de asignación’, ‘En progreso’, ‘Finalizada’. Cuando una tarea se pasa a finalizada, automáticamente se genera(n) la(s) tarea(s) que sigue en el flujo de trabajo.
 * **Activo** → activo relacionado con la tarea. Cada tarea estará relacionada a un único activo.
 * **Fecha límite de ejecución de la tarea** → en función del tipo de tarea, se definen límites en la ejecución
@@ -155,8 +158,8 @@ Contiene toda la información relacionada con la descripción propia de la tarea
 
 L﻿as asignaciones pueden realizarse a varios niveles:
 
-* N﻿ivel de empresa y departamento → existe una configuración de departamentos y usuarios y se definen qué tareas deben ejecutarse por cuáles departamentos.
-* N﻿ivel de activo y portfolio → a﻿demás de la configuración por empresa, se pueden asignar tareas por activo a usuarios concretos de manera que todas las tareas de un tipo concreto pueden preasignarse a un usuario específico del departamento.
+* Nivel de empresa y departamento → existe una configuración de departamentos y usuarios y se definen qué tareas deben ejecutarse por cuáles departamentos.
+* Nivel de activo y portfolio → a﻿demás de la configuración por empresa, se pueden asignar tareas por activo a usuarios concretos de manera que todas las tareas de un tipo concreto pueden preasignarse a un usuario específico del departamento.
 
 > 💡 Cuando una tarea está asignada a un usuario, sólo se muestra a dicho usuario. Cuando una  tarea no se encuentra asignada, dicha tarea se muestra a todos los usuarios que son candidatos a ejecutar la tarea para informar que existe una tarea por hacer.
 
@@ -164,7 +167,7 @@ L﻿as asignaciones pueden realizarse a varios niveles:
 
 En la página principal de la información del activo se muestran las notificaciones referentes al propio activo:
 
-![Captura de Pantalla 2022-05-30 a las 11.33.00.png](/images/uploads/captura-de-pantalla-2023-07-06-a-las-13.25.58.png)
+![Captura de Pantalla 2022-05-30 a las 11.33.00.png](/images/AssetView/Management/captura-de-pantalla-2023-07-06-a-las-13.25.58.png)
 
 Dichas notificaciones son configurable y se puede definir bajo qué condiciones de información de una activo lanzarlas. Esta configuración es necesario realizarla con el equipo de RESIDELIA para ajustarla a la necesidad concreta de cada cliente.
 
@@ -173,7 +176,6 @@ Las notificaciones tienen dos estados:
 * PENDIENTE → La notificación se ha lanzado pero aún no ha sido procesada por ningún usuario
 * PROCESADA → La notificación ha sido procesada por un usuario. Las notificaciones se procesan automáticamente cuando se seleccionan para ver el detalle.
 
-![Captura de pantalla 2023-07-06 a las 14.19.16.png](images/uploads/Captura de pantalla 2023-07-06 a las 14.19.16.png)
 
 Además del estado las notificaciones contienen la siguiente información:
 
@@ -182,13 +184,13 @@ Además del estado las notificaciones contienen la siguiente información:
 * Usuario que ha procesado la notificación
 * Fecha de procesamiento → Fecha de asignación automática cuando el estado de una notificación se pasa PROCESADA manualmente por un usuario.
 
-**Activo y Tipo de notificación son dos parámetros que no se deben modificar puesto que son automáticos.
+**Activo y Tipo de notificación son dos parámetros que no se deben modificar puesto que son automáticos.**
 
 Las notificaciones se asignan por defecto al departamento afectado por lo que pueden ser vistas por todos los integrantes de dicho departamento.
 
 Las notificaciones poseen un tipo definido y son configurables, tanto el tipo de notificación como cuándo han de lanzarse.
 
-![Untitled](/images/AssetView/Management/Untitled%201.png)
+![notification-detail.png](/images/AssetView/Management/notification-detail.png)
 
 ## Tareas y notificaciones del usuario
 
@@ -198,7 +200,7 @@ En el menú de la barra lateral, seleccionamos **TAREAS** para mostrar todas las
 
 ![Captura de Pantalla 2022-07-21 a las 8.42.50.png](/images/AssetView/Management/Captura_de_Pantalla_2022-07-21_a_las_8.42.50.png)
 
-![am-user-tasks.png](/images/AssetView/Management/am-user-tasks.png)
+![user-tasks-view.png](/images/AssetView/Management/user-tasks-view.png)
 
 > 💡 Tareas en las que se es candidato pero finalmente no se asigna desaparecen de la vista del usuario actual.
 
@@ -208,7 +210,7 @@ A partir de ésta vista, el usuario empezará a trabajar en el trabajo que requi
 
 En el menú de la barra lateral, seleccionamos NOTIFICACIONES para visualizar todas las notificaciones que afectan a todos los activos.
 
-![screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png](/images/AssetView/Management/screencapture-test-app-residelia-notifications-2022-07-21-13_05_23.png)
+![captura-de-pantalla-2023-07-06-a-las-13.25.58.png](/images/AssetView/Management/captura-de-pantalla-2023-07-06-a-las-13.25.58.png)
 
 ## Workflow por defecto de operación para Saneamiento Jurídico-Posesorio
 
@@ -216,7 +218,81 @@ A continuación indicamos los tipos de tareas definidas y cuándo se lanzan para
 
 A continuación indicamos los tipos de notificaciones definidas y cuándo se lanzan:
 
-![Untitled](/images/AssetView/Management/Untitled%202.png)
+ADJUDICACIONES JUDICIALES
+| WORFLOW                                                 | TAREA | CONDICIONES DISPARO |
+| ------------------------------------------------------- | ----- | ------------------- |
+| Informe Ocupacional Activo Adjudicado                   | Asignación Agencia IO | Fecha Recepción Testimonio toma valor |
+| Toma de posesión activo Adjudicado                      | Asignar empresa facility | Resultado IO = NO OCUPADO |
+|                                                         | Asignación de API y solicitu de valoración              | Resultado IO = NO OCUPADO |
+|                                                         | Solicitud cambio de cerradura (por propuesta aceptada)  | Estado proppuesta mediación = APROBADA |
+|                                                         | Solicitud cambio de cerradura (activo vacío)            | Resultado IO = NO OCUPADO |
+|                                                         | Solicitud cambio de cerradura (por lanzamiento)         | Fecha Lanzamiento toma valor |
+| Proceso inscripción Activo Adjudicado                   | Revisión completitud documentación para inscripción | Fecha Recepción Testimonio toma valor |
+|                                                         | Asignación Gestoría para Inscripción Registral          | Tarea "Revisión completitud documentación para inscripción" FINALIZADA |
+|                                                         | Adjuntar documento inscripción testimonio/CV defectuosa | Estado inscripción Testimonio/CV toma valor DEFECTUOSO |
+|                                                         | Adjuntar documento cancelación de cargas defectuosa     | Estado inscripción Cancelación de Cargas toma valor DEFECTUOSO |
+|                                                         | Adjuntar documento nota marginal defectuosa             | Estado inscripción Nota Marginal toma valor DEFECTUOSO |
+|                                                         | Adjuntar nota simple inscrita                           | Estado inscripción Testimonio/CV toma valor INSCRITO<br>Estado inscripción Cancelación de Cargas toma valor INSCRITO |
+
+
+COMPRAVENTA / REO
+| WORFLOW                                                             | TAREA | CONDICIONES DISPARO |
+| ------------------------------------------------------------------- | ----- | ------------------- |
+| Toma de posesión activo REO                                         | Asignación Agencia IO | Marca de posesión como FALSO |
+|                                                                     | Asignación empresa facility para Reo                                | Marca de posesión como VERDADERO |
+|                                                                     | Solicitud de cambio cerradura para REO (por lanzamiento)            | Fecha Lanzamiento toma valor |
+|                                                                     | Solicitud de cambio cerradura para REO (activo no ocupado)          | Resultado IO = NO OCUPADO |
+|                                                                     | Solicitud de cambio cerradura para REO (por negociación aceptada)   | Estado propuesta mediación = APROBADA |
+|                                                                     | Solicitud de cambio cerradura para REO (activo con posesión)        | Marca de posesión como VERDADERO<br>No existe IO |
+|                                                                     | Asignación API y solicitud de valoración (por negociación aceptada) | Estado propuesta mediación = APROBADA |
+|                                                                     | Asignación API y solicitud de valoración (activo no ocupado)        | Resultado IO = NO OCUPADO |
+|                                                                     | Asignación API y solicitud de valoración (por lanzamiento)          | Fecha Lanzamiento toma valor |
+|                                                                     | Asignación API y solicitud de valoración (activo con posesión)      | Marca de posesión como VERDADERO<br>No existe IO |
+| Proceso inscripción activo REO                                      | Revisión completitud documentación para inscripción | Fecha de adquisición toma valor |
+|                                                                     | Asignación Gestoría para Inscripción Registral                      | Tarea "Revisión completitud documentación para inscripción" FINALIZADA |
+|                                                                     | Adjuntar documento inscripción testimonio/CV defectuosa             | Estado inscripción Testimonio/CV toma valor DEFECTUOSO |
+|                                                                     | Adjuntar documento cancelación de cargas defectuosa                 | Estado inscripción Cancelación de Cargas toma valor DEFECTUOSO |
+|                                                                     | Adjuntar documento nota marginal defectuosa                         | Estado inscripción Nota Marginal toma valor DEFECTUOSO |
+|                                                                     | Adjuntar nota simple inscrita                                       | Estado inscripción Testimonio/CV toma valor INSCRITO |
+
+DACIÓN
+| WORFLOW                                                                 | TAREA | CONDICIONES DISPARO |
+| ----------------------------------------------------------------------- | ----- | ------------------- |
+| Toma de posesión para Dación                                            | Comprobación DIL firmada ocupada | Tipo de adquisición toma valor DACIÓN |
+|                                                                         | Asignación empresa de facility por Dación                               | Marca de posesión como VERDADERO |
+|                                                                         | Asignación de API y solucitud de valoración para Dación                 | Marca de posesión como VERDADERO |
+|                                                                         | Solicitud de cambio de cerradura para Dación (por negociación aceptada) | Estado propuesta mediación = APROBADA |
+|                                                                         | Solicitud de cambio de cerradura para Dación (por lanzamiento)          | Fecha Lanzamiento toma valor |
+|                                                                         | Iniciar procedimiento de desahucio                                      | Marca DIL Firmada Ocupada a VERDADERO |
+| Proceso inscripción activo en dación                                    | Revisión completitud documentación para inscripción | Fecha de adquisición toma valor |
+|                                                                          | Asignación Gestoría para Inscripción Registral                          | Tarea "Revisión completitud documentación para inscripción" FINALIZADA |
+|                                                                          | Adjuntar documento inscripción testimonio/CV defectuosa                 | Estado inscripción Testimonio/CV toma valor DEFECTUOSO |
+|                                                                          | Adjuntar documento cancelación de cargas defectuosa                     | Estado inscripción Cancelación de Cargas toma valor DEFECTUOSO |
+|                                                                          | Adjuntar documento nota marginal defectuosa                             | Estado inscripción Nota Marginal toma valor DEFECTUOSO |
+|                                                                          | Adjuntar nota simple inscrita                                           | Estado inscripción Testimonio/CV toma valor INSCRITO<br>Estado inscripción Cancelación de Cargas toma valor INSCRITO<br>Estado inscripción Nota Marginal toma valor INSCRITO |
+
+POA / CSA
+| WORFLOW                 | TAREA | CONDICIONES DISPARO |
+| ----------------------- | ----- | ------------------- |
+| Workflow para POA / CSA | Asignación de API y solicitud de valoración | Tipo de adquisición = POA o CSA |
+
+APLICA A TODOS
+| WORFLOW                                        | TAREA | CONDICIONES DISPARO |
+| ---------------------------------------------- | ----- | ------------------- |
+| Workflow para activos reocupados               | Asignación de Agencia IO | Marca de posesión = VERDADERO<br>Marca de ocupación = VERDADERO |
+| Procedimiento de desahucio                     | Asignación empresa de facility | Fecha Señalamiento toma valor |
+|                                                | Asignación de API y solicitud de valoración    | Fecha Señalamiento toma valor |
+|                                                | Solicitud de cambio de cerradura               | Tarea "Asignación empresa de facility" FINALIZADA |
+| Procedimiento extrajudicial                    | Asignación agencia de mediación | Resultado IO = OCUPADO |
+|                                                | Elaborar propuesta de desalojo                 | Estado de la negociación = ACEPTADA |
+|                                                | Asignación empresa de facility                 | Estado propuesta mediación = APROBADA |
+|                                                | Asignación de API y solicitud de valoración    | Estado propuesta mediación = APROBADA |
+|                                                | Solicitud de cambio de cerradura               | Tarea "Asignación empresa de facility" FINALIZADA |
+|                                                | Revisión de lanzamiento por propuesta aprobada | Estado propuesta mediación = APROBADA |
+| Procedimiento Judicial                         | Asignación empresa facility por lanzamiento recibido | Fecha de recepción de diligencia de posesión toma valor |
+|                                                | Revisión de lanzamiento judicial               | Fecha de recepción de diligencia de posesión toma valor |
+|                                                | Asignación de API y solicitud de valoración    | Fecha de recepción de diligencia de posesión toma valor |
+
 
 ## Workflow de reocupaciones
 
