@@ -7,21 +7,17 @@ Al acceder al detalle de una cartera, o a todos los Activos, estará disponible 
 
 En el listado de activos de una cartera, es posible realizar las siguientes acciones:
 
-> Es posible mostrar u ocultar columnas del listado de activos. En la parte derecha, en la cabecera de las columnas, pulsar en el icono: **|||**
+> Es posible mostrar u ocultar columnas del listado de activos. En la parte derecha, en la cabecera de las columnas, pulsar en el icono: **\|||**
 
 ![Untitled](/images/Assets/Main.png)
- 
-- Vista Grupos → [Más info](/Assets/Groups.html#vista-grupos)
 
-- Vista Mapa → [Más info](/Assets/Map.html)
+* Vista Grupos → [Más info](/Assets/Groups.html#vista-grupos)
+* Vista Mapa → [Más info](/Assets/Map.html)
+* Editar → Realizar acciones sobre el listado como formar grupos, archivar, etc…
 
-- Editar → Realizar acciones sobre el listado como formar grupos, archivar, etc…
-
-- Exportar Excel → Exportación de información de todos los activos de la cartera
-
-- Crear activo → [Más info](/Assets/CreateAsset.html)
-
-
+  * En esta acción se ofrece la posibilidad de descargar masivamente el Informe de Valoración PDF. El comportamiento por defecto será en el idioma de la aplicación, con las fotos predeterminadas (Google Street View, Google Maps y Catastro) y sin adjuntos PDF.
+* Exportar Excel → Exportación de información de todos los activos de la cartera
+* Crear activo → [Más info](/Assets/CreateAsset.html)
 
 ## Fase de los activos
 
