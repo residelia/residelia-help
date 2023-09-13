@@ -25,16 +25,14 @@ La valoración manual por el método de comparables está disponible para todas 
 
 ![Untitled](/images/AssetView/Valuation/Main.png)
 
-
 Si la plataforma ha realizado una valoración automática AVM, el listado de comparables estará completo con los candidatos más similares realizados por el algoritmo de valoración AVM.
 
 En este listado de comparables, se pueden eliminar, seleccionar/deseleccionar, editar y añadir los comparables necesarios de cara a la valoración.
 
 Así mismo, existen dos columnas adicionales en cada comparable:
 
-- Porcentaje de Negociación → Descuento del valor unitario del comparable.
-
-- Coeficiente de Homogeneización → Coeficiente para aplicar distintas ponderaciones a los comparables. Se aplica en el valor unitario del comparable.
+* Porcentaje de Negociación → Descuento del valor unitario del comparable.
+* Coeficiente de Homogeneización → Coeficiente para aplicar distintas ponderaciones a los comparables. Se aplica en el valor unitario del comparable.
 
 El valor unitario de la valoración corresponde a la media de los valores unitarios de los testigos seleccionados. Es posible editar tanto el valor como el valor unitario manualmente y durante la valoración, no se realizará ningún cálculo adicional para re-calcular el valor.
 
@@ -62,14 +60,9 @@ Al pulsar en el POI del mapa o en el icono de detalle de los resultados:
 
 Podemos añadir el comparable o bien desde el icono del listado o desde el detalle del comparable:
 
-
-Oferta         |  Cierres
-:-------------------------:|:-------------------------:
-![Untitled](/images/AssetView/Valuation/Detail_Comparable_Add.png) | ![Untitled](/images/AssetView/Valuation/Detail_Comparable_Add_2.png)
-
-
-
-
+| Oferta                                                             | Cierres                                                              |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| ![Untitled](/images/AssetView/Valuation/Detail_Comparable_Add.png) | ![Untitled](/images/AssetView/Valuation/Detail_Comparable_Add_2.png) |
 
 **Formulario**
 
@@ -79,7 +72,19 @@ En el listado de testigos, seleccionando la opción de “Nuevo Comparable”, s
 
 ![Untitled](/images/AssetView/Valuation/New_Manual_Comparable_2.png)
 
-## ¿Qué es una valoración firmada?
+
+
+### Capa con tus activos
+
+Además de las capas de Oferta y Cierres, puedes acceder a todos los activos de tu organización para poder visualizarlos en el mapa cuando estás realizando un análisis de un activo en concreto.
+
+Así mismo, es posible añadir otro activo de tu organización como comparable del activo que estás analizando.
+
+
+
+
+
+### ¿Qué es una valoración firmada?
 
 > La firma de una valoración tiene que realizarse como último paso antes de guardar la valoración.
 
@@ -90,7 +95,6 @@ Si tu organización tiene una integración con RESIDELIA, esta opción desencade
 ![Untitled](/images/AssetView/Valuation/Signed_Valuation_Icon.png)
 
 ![Untitled](/images/AssetView/Valuation/Signed_Valuation_History.png)
-
 
 ## Histórico de Valores
 
