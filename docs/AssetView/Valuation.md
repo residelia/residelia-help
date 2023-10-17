@@ -74,7 +74,7 @@ En el listado de testigos, seleccionando la opción de “Nuevo Comparable”, s
 
 ### Capa con tus activos
 
-Además de las capas de Oferta y Cierres, puedes acceder a todos los activos de tu organización para poder visualizarlos en el mapa cuando estás realizando un análisis de un activo en concreto. Es posible añadir otro activo de tu organización como comparable del activo que estás analizando.
+Además de las capas de Oferta y Cierres, puedes acceder a todos los activos de tu organización para poder visualizarlos en el mapa cuando estás realizando un análisis de un activo en concreto. Es posible añadir otro activo de tu organización como comparable del activo que estás editando.
 
 Así mismo, también puedes copiar la información de otro activo de tu organización al activo que estás editando. De esta forma se sobreescribirá la información de:
 
