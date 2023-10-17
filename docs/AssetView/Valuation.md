@@ -72,17 +72,14 @@ En el listado de testigos, seleccionando la opción de “Nuevo Comparable”, s
 
 ![Untitled](/images/AssetView/Valuation/New_Manual_Comparable_2.png)
 
-
-
 ### Capa con tus activos
 
-Además de las capas de Oferta y Cierres, puedes acceder a todos los activos de tu organización para poder visualizarlos en el mapa cuando estás realizando un análisis de un activo en concreto.
+Además de las capas de Oferta y Cierres, puedes acceder a todos los activos de tu organización para poder visualizarlos en el mapa cuando estás realizando un análisis de un activo en concreto. Es posible añadir otro activo de tu organización como comparable del activo que estás analizando.
 
-Así mismo, es posible añadir otro activo de tu organización como comparable del activo que estás analizando.
+Así mismo, también puedes copiar la información de otro activo de tu organización al activo que estás editando. De esta forma se sobreescribirá la información de:
 
-
-
-
+* Info: Análisis de área, Información adicional, Tipo comunidad y Comentarios (con el autor y fecha del cambio, no del origen)
+* Valoración: Todos los comparables en el tipo de operación elegido (Venta, Alquiler o Ambas)
 
 ### ¿Qué es una valoración firmada?
 
