@@ -39,6 +39,10 @@ module.exports = {
         link: '/'
       },
       {
+        text: 'Guía de Proveedores',
+        link: '/providers/Info'
+      },
+      {
         text: 'FAQs',
         link: '/Faqs/'
       }
@@ -51,8 +55,16 @@ module.exports = {
       //     { text: 'Japanese', link: '/language/japanese/' }
       //   ]
       // }
-    
+
     sidebar: {
+      '/providers/': [
+         {
+          title: 'Introducción',
+          path: '/providers/Info',
+          collapsable: false
+         }
+
+      ],
       '/Faqs/': [
           {
             title: 'Plataforma',
@@ -69,10 +81,10 @@ module.exports = {
               '/Faqs/Valuation/ValuationAlgorithm'
             ]
           },
-          
-         
-        
-      ], 
+
+
+
+      ],
 
       '/': [
         {
@@ -88,7 +100,7 @@ module.exports = {
             '/Portfolios/CreatePortfolio',
             '/Portfolios/Enrichment',
             '/Portfolios/Valuation'
-            
+
           ]
         },
         {
