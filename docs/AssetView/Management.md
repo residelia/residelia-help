@@ -296,7 +296,7 @@ APLICA A TODOS
 
 Durante el proceso de saneamiento ya sea jurídico o físico, incluso en fase de comercialización, un activo podría volver a ocuparse ilegalmente. Para indicar que el activo se encuentra en este estado, en el recuadro de posesión, seleccionaremos OCUPADO  a Sí.
 
-C﻿uando esta situacin sucede, la plataforma genera un nueva entrada en el histórico de reposesiones, iniciándose de nuevo el ciclo de posesin. De esta manera, por cada activo podemos tener la trazabilidad de todas las situaciones de reposesin por las que ha pasado en el tiempo en que se encuentra en gestin
+C﻿uando esta situacin sucede, la plataforma genera un nueva entrada en el histórico de reposesiones, iniciándose de nuevo el ciclo de posesin. De esta manera, por cada activo podemos tener la trazabilidad de todas las situaciones de reposesin por las que ha pasado en el tiempo en que se encuentra en gestin.
 
 El cambio de no ocupado a ocupado en la seccin de posesión, lanza una tarea interna:
 
