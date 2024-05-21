@@ -294,8 +294,6 @@ APLICA A TODOS
 
 ## Workflow de reocupaciones
 
-> Este workflow se rediseñará en un futuro para ser incorporado dentro del módulo de INCIDENCIAS que permitirá retomar partes del workflow en función del tipo de incidencia acaecida.
-
 Durante el proceso de saneamiento ya sea jurídico o físico, incluso en fase de comercialización, un activo podría volver a ocuparse ilegalmente. Para indicar que el activo se encuentra en este estado, en el recuadro de posesión, seleccionaremos OCUPADO  a Sí.
 
 C﻿uando esta situacin sucede, la plataforma genera un nueva entrada en el histórico de reposesiones, iniciándose de nuevo el ciclo de posesin. De esta manera, por cada activo podemos tener la trazabilidad de todas las situaciones de reposesin por las que ha pasado en el tiempo en que se encuentra en gestin
@@ -304,7 +302,5 @@ El cambio de no ocupado a ocupado en la seccin de posesión, lanza una tarea int
 
 * Selección de Agencia de IO que, en este caso, al haber obtenido información por otros medios, no sería necesario externalizar.
 * Crearíamos un nuevo informe de ocupación con resultado ocupado que nos generaría una nueva tarea de Asignación de Agencia de Mediación, permitiéndonos de esta forma relanzar el proceso de toma de posesión física del activo.
-
-
 
 ![historico-reposesiones](/images/uploads/reposesiones.gif)
