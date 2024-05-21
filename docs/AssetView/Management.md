@@ -57,6 +57,7 @@ Se desplegará la información de detalle sobre el proceso de inscripción:
 En el desplegable se muestra la información actualizada del estado último de la inscripción y de las cargas en caso de tenerlas. Además, existe un campo que permite anotaciones que pueden ser introducidas tanto por los gestores internos como por los intervinientes externos a cargo de la inscripción.
 
 ## Procedimientos de Adjudicación
+
 En el caso de que un activo se aquiera por Adjudicación Judicial, se mostrará información específica sobre el proceso legal de adjudicación. En la pantalla general de saneamiento se muestran los parámetros más importantes del proceso y, si se desea más detalle, basta con pulsar en el icono correspondiente para desplegar el panel de detalle.
 
 ![detalle-proc-adjudicacion](/images/AssetView/Management/detalle-proc-adjudicacion.png)
@@ -176,7 +177,6 @@ Las notificaciones tienen dos estados:
 * PENDIENTE → La notificación se ha lanzado pero aún no ha sido procesada por ningún usuario
 * PROCESADA → La notificación ha sido procesada por un usuario. Las notificaciones se procesan automáticamente cuando se seleccionan para ver el detalle.
 
-
 Además del estado las notificaciones contienen la siguiente información:
 
 * Fecha de lanzamiento de la notificación → Fecha y hora en la que se genera la notificación
@@ -233,7 +233,6 @@ ADJUDICACIONES JUDICIALES
 |                                                         | Adjuntar documento cancelación de cargas defectuosa     | Estado inscripción Cancelación de Cargas toma valor DEFECTUOSO |
 |                                                         | Adjuntar documento nota marginal defectuosa             | Estado inscripción Nota Marginal toma valor DEFECTUOSO |
 |                                                         | Adjuntar nota simple inscrita                           | Estado inscripción Testimonio/CV toma valor INSCRITO<br>Estado inscripción Cancelación de Cargas toma valor INSCRITO |
-
 
 COMPRAVENTA / REO
 | WORFLOW                                                             | TAREA | CONDICIONES DISPARO |
@@ -293,16 +292,19 @@ APLICA A TODOS
 |                                                | Revisión de lanzamiento judicial               | Fecha de recepción de diligencia de posesión toma valor |
 |                                                | Asignación de API y solicitud de valoración    | Fecha de recepción de diligencia de posesión toma valor |
 
-
 ## Workflow de reocupaciones
 
 > Este workflow se rediseñará en un futuro para ser incorporado dentro del módulo de INCIDENCIAS que permitirá retomar partes del workflow en función del tipo de incidencia acaecida.
 
 Durante el proceso de saneamiento ya sea jurídico o físico, incluso en fase de comercialización, un activo podría volver a ocuparse ilegalmente. Para indicar que el activo se encuentra en este estado, en el recuadro de posesión, seleccionaremos OCUPADO  a Sí.
 
-![Captura de pantalla 2023-01-12 a las 14.35.28.png](/images/AssetView/Management/Captura_de_pantalla_2023-01-12_a_las_14.35.28.png)
+C﻿uando esta situacin sucede, la plataforma genera un nueva entrada en el histórico de reposesiones, iniciándose de nuevo el ciclo de posesin. De esta manera, por cada activo podemos tener la trazabilidad de todas las situaciones de reposesin por las que ha pasado en el tiempo en que se encuentra en gestin
 
-Esto lanzará una tarea interna de:
+El cambio de no ocupado a ocupado en la seccin de posesión, lanza una tarea interna:
 
 * Selección de Agencia de IO que, en este caso, al haber obtenido información por otros medios, no sería necesario externalizar.
 * Crearíamos un nuevo informe de ocupación con resultado ocupado que nos generaría una nueva tarea de Asignación de Agencia de Mediación, permitiéndonos de esta forma relanzar el proceso de toma de posesión física del activo.
+
+
+
+![historico-reposesiones](/images/uploads/reposesiones.gif)
