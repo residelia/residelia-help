@@ -9,9 +9,7 @@ Sección para editar la información de localización, características, comenta
 
 **Superficies**
 
-El icono ⭐ en el listado de superficies indica únicamente cuál es la superficie principal del activo, seleccionada de forma automática al crear el activo o de forma manual por el usuario.
-
-Esta superficie principal **no afecta a la superficie escogida en la valoración**, ya que esta es independiente para minimizar errores de valoración al editar cualquier superficie del activo.
+Listado con todas las superficies disponibles de cada fuente de información.
 
 **Imagen principal**
 
